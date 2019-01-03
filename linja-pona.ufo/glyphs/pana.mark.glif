@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pana.mark" format="1">
+  <advance width="2048"/>
+  <unicode hex="F177"/>
+  <outline>
+    <contour>
+      <point x="1025" y="800" type="move" name="_Anchor"/>
+    </contour>
+    <contour>
+      <point x="1113" y="1406" type="line"/>
+      <point x="1113" y="1084" type="line"/>
+      <point x="1001" y="1084" type="line"/>
+      <point x="1001" y="1406" type="line"/>
+    </contour>
+    <contour>
+      <point x="1286" y="1027" type="line"/>
+      <point x="1466" y="1268" type="line"/>
+      <point x="1556" y="1200" type="line"/>
+      <point x="1376" y="959" type="line"/>
+    </contour>
+    <contour>
+      <point x="829" y="1027" type="line"/>
+      <point x="738" y="959" type="line"/>
+      <point x="558" y="1200" type="line"/>
+      <point x="649" y="1268" type="line"/>
+    </contour>
+    <contour>
+      <point x="1367" y="891" type="curve" smooth="yes"/>
+      <point x="1450" y="818"/>
+      <point x="1493" y="715"/>
+      <point x="1493" y="592" type="curve" smooth="yes"/>
+      <point x="1493" y="289" type="line"/>
+      <point x="1380" y="289" type="line"/>
+      <point x="1380" y="592" type="line" smooth="yes"/>
+      <point x="1380" y="682"/>
+      <point x="1350" y="756"/>
+      <point x="1292" y="807" type="curve" smooth="yes"/>
+      <point x="1236" y="857"/>
+      <point x="1154" y="883"/>
+      <point x="1057" y="883" type="curve" smooth="yes"/>
+      <point x="960" y="883"/>
+      <point x="879" y="857"/>
+      <point x="822" y="807" type="curve" smooth="yes"/>
+      <point x="764" y="756"/>
+      <point x="734" y="682"/>
+      <point x="734" y="592" type="curve" smooth="yes"/>
+      <point x="734" y="289" type="line"/>
+      <point x="680" y="289" type="line"/>
+      <point x="435" y="533" type="line"/>
+      <point x="515" y="613" type="line"/>
+      <point x="621" y="506" type="line"/>
+      <point x="621" y="592" type="line" smooth="yes"/>
+      <point x="621" y="715"/>
+      <point x="665" y="818"/>
+      <point x="747" y="891" type="curve" smooth="yes"/>
+      <point x="825" y="960"/>
+      <point x="932" y="996"/>
+      <point x="1057" y="996" type="curve" smooth="yes"/>
+      <point x="1182" y="996"/>
+      <point x="1289" y="960"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-113</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>883</integer>
+            <key>width</key>
+            <integer>113</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1084</integer>
+            <key>width</key>
+            <integer>322</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1577</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>118</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>621</integer>
+            <key>width</key>
+            <integer>113</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1001</integer>
+            <key>width</key>
+            <integer>112</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1380</integer>
+            <key>width</key>
+            <integer>113</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1807</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

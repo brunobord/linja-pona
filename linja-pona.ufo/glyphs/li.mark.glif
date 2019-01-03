@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="li.mark" format="1">
+  <advance width="2048"/>
+  <unicode hex="F140"/>
+  <outline>
+    <contour>
+      <point x="925" y="830" type="move" name="_Anchor"/>
+    </contour>
+    <contour>
+      <point x="752.389" y="225.597" type="line"/>
+      <point x="700.799" y="289.916" type="line"/>
+      <point x="688.29" y="305.512" type="line"/>
+      <point x="703.881" y="318.026" type="line"/>
+      <point x="1329.61" y="820.299" type="line"/>
+      <point x="703.92" y="1319.94" type="line"/>
+      <point x="688.358" y="1332.37" type="line"/>
+      <point x="700.72" y="1347.98" type="line"/>
+      <point x="751.639" y="1412.3" type="line"/>
+      <point x="764.102" y="1428.05" type="line"/>
+      <point x="779.795" y="1415.52" type="line"/>
+      <point x="1506.07" y="835.973" type="line"/>
+      <point x="1525.61" y="820.383" type="line"/>
+      <point x="1506.12" y="804.741" type="line"/>
+      <point x="780.507" y="222.511" type="line"/>
+      <point x="764.905" y="209.992" type="line"/>
+    </contour>
+  </outline>
+</glyph>
