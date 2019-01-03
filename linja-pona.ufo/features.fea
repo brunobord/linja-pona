@@ -8,21 +8,21 @@ languagesystem thai dflt;
 
 lookup ligaStandardLigaturesinLatinlookup0 {
   lookupflag 0;
-    sub \a \space  by \aa;
-    sub \a \exclam  by \aa;
     sub \a \a  by \aa;
+    sub \a \exclam  by \aa;
+    sub \a \space  by \aa;
     sub \a \k \e \s \i  by \akesi;
     sub \a \l \a  by \ala;
     sub \a \l \a \s \a  by \alasa;
-    sub \a \l \e  by \ale;
     sub \a \l \i  by \ale;
+    sub \a \l \e  by \ale;
     sub \a \n \p \a  by \anpa;
     sub \a \n \t \e  by \ante;
     sub \a \n \u  by \anu;
     sub \a \w \e \n  by \awen;
-    sub \e \e  by \ee;
-    sub \e \exclam  by \ee;
     sub \e \space  by \ee;
+    sub \e \exclam  by \ee;
+    sub \e \e  by \ee;
     sub \e \n  by \en;
     sub \e \s \u \n  by \esun;
     sub \i \j \o  by \ijo;
@@ -81,9 +81,9 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \n \i  by \ni;
     sub \n \i \m \i  by \nimi;
     sub \n \o \k \a  by \noka;
-    sub \o \o  by \oo;
-    sub \o \exclam  by \oo;
     sub \o \space  by \oo;
+    sub \o \exclam  by \oo;
+    sub \o \o  by \oo;
     sub \o \l \i \n  by \olin;
     sub \o \n \a  by \ona;
     sub \o \p \e \n  by \open;
@@ -104,8 +104,8 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \s \a \m \a  by \sama;
     sub \s \e \l \i  by \seli;
     sub \s \e \l \o  by \selo;
-    sub \s \e \m \e \question  by \seme;
     sub \s \e \m \e  by \seme;
+    sub \s \e \m \e \question  by \seme;
     sub \s \e \w \i  by \sewi;
     sub \s \i \j \e \l \o  by \sijelo;
     sub \s \i \k \e  by \sike;
@@ -136,27 +136,14 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \w \a \w \a  by \wawa;
     sub \w \e \k \a  by \weka;
     sub \w \i \l \e  by \wile;
-    sub \t \o \k \i \hyphen \p \o \n \a  by \uniE678;
-    sub \_65535 \_65535  by \uniE679;
-    sub \z \z  by \uniE679;
     sub \space \space  by \uniE679;
+    sub \z \z  by \uniE679;
+    sub \_65535 \_65535  by \uniE679;
     sub \comma \space  by \uniE680;
     sub \period \space  by \uniE681;
     sub \hyphen \i \k \e  by \ike.mark;
     sub \hyphen \l \i \l \i  by \lili.mark;
     sub \hyphen \p \o \n \a  by \pona.mark;
-    sub \k \i \l \i \hyphen \l \i \l \i  by \uniE810;
-    sub \k \i \l \i \hyphen \l \o \j \e  by \uniE811;
-    sub \k \i \l \i \hyphen \p \a \l \i \s \a  by \uniE812;
-    sub \k \i \l \i \hyphen \s \u \w \i  by \uniE813;
-    sub \l \i \n \j \a \hyphen \l \i \l \i  by \uniE842;
-    sub \l \i \p \u \hyphen \t \o \k \i  by \uniE845;
-    sub \l \i \p \u \hyphen \s \o \n \a  by \uniE846;
-    sub \l \u \p \a \hyphen \j \a \k \i  by \uniE855;
-    sub \l \u \p \a \hyphen \k \u \t \e  by \uniE856;
-    sub \l \u \p \a \hyphen \m \e \l \i  by \uniE857;
-    sub \l \u \p \a \hyphen \m \o \n \s \i  by \uniE858;
-    sub \l \u \p \a \hyphen \n \e \n \a  by \uniE859;
     sub \m \a \m \a \hyphen \m \a \m \a  by \uniE865;
     sub \m \a \m \a \hyphen \m \e \l \i  by \uniE866;
     sub \m \a \m \a \hyphen \m \i \j \e  by \uniE867;
@@ -167,7 +154,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \m \i \j \e \hyphen \s \a \m \a  by \uniE876;
     sub \m \i \j \e \hyphen \u \n \p \a  by \uniE877;
     sub \m \i \j \e \hyphen \w \a \w \a  by \uniE878;
-    sub \k \a \l \a \m \a \hyphen \m \u \s \i  by \uniE803;
     sub \n \e \n \a \hyphen \k \o \n  by \uniE880;
     sub \n \e \n \a \hyphen \k \u \t \e  by \uniE881;
     sub \n \e \n \a \hyphen \l \i \l \i  by \uniE882;
@@ -181,7 +167,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \p \o \k \i \hyphen \l \e \t \e  by \uniE906;
     sub \p \o \k \i \hyphen \s \e \l \i  by \uniE907;
     sub \p \o \k \i \hyphen \t \e \l \o  by \uniE908;
-    sub \s \i \t \e \l \e \n \hyphen \t \a \w \a  by \uniE915;
     sub \s \o \n \a \hyphen \l \i \l \i  by \uniE918;
     sub \s \o \n \a \hyphen \m \a  by \uniE920;
     sub \s \o \n \a \hyphen \n \a \n \p \a  by \uniE921;
@@ -212,8 +197,8 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \colon \space  by \uniE682;
     sub \exclam \space  by \uniE683;
     sub \question \space  by \uniE685;
-    sub \k \i \n \exclam  by \kin;
     sub \k \i \n  by \kin;
+    sub \k \i \n \exclam  by \kin;
     sub \k \i \p \i \s \i  by \kipisi;
     sub \l \e \k \o  by \leko;
     sub \m \o \n \s \u \t \a  by \monsuta;
@@ -225,43 +210,19 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \p \i \l \i \n \hyphen \p \a \k \a \l \a  by \uniE896;
     sub \p \i \l \i \n \hyphen \p \o \n \a  by \uniE897;
     sub \p \i \l \i \n \hyphen \s \a \m \a  by \uniE898;
-    sub \l \i \n \j \a \hyphen \p \o \n \a  by \uniE843;
     sub \m \e \l \i \hyphen \i \k \e  by \uniE868;
     sub \m \e \l \i \hyphen \p \o \n \a  by \uniE869;
     sub \m \i \j \e \hyphen \i \k \e  by \uniE873;
     sub \m \i \j \e \hyphen \p \o \n \a  by \uniE874;
-    sub \s \i \t \e \l \e \n \hyphen \m \o \n \s \u \t \a  by \uniF004;
-    sub \s \i \t \e \l \e \n \hyphen \p \o \n \a  by \uniF011;
-    sub \s \i \t \e \l \e \n \hyphen \m \a  by \uniF012;
-    sub \s \i \t \e \l \e \n \hyphen \s \i \t \e \l \e \n  by \uniF013;
-    sub \s \i \t \e \l \e \n \hyphen \t \o \k \i  by \uniF014;
-    sub \k \o \hyphen \k \u \l \e  by \uniE819;
-    sub \l \i \p \u \hyphen \n \a \n \p \a  by \uniE847;
-    sub \l \i \p \u \hyphen \s \e \w \i  by \uniE848;
-    sub \l \u \p \a \hyphen \k \i \w \e \n  by \uniE854;
-    sub \k \i \l \i \hyphen \j \e \l \o  by \uniE808;
-    sub \k \i \l \i \hyphen \l \a \s \o  by \uniE809;
-    sub \k \i \l \i \hyphen \p \i \m \e \j \a  by \uniE814;
-    sub \k \i \l \i \hyphen \w \a \l \o  by \uniE815;
-    sub \l \u \p \a \hyphen \l \i \l \i  by \uniE860;
     sub \p \o \k \i \hyphen \l \i \l \i  by \uniE909;
     sub \p \o \k \i \hyphen \l \e \n  by \uniE910;
-    sub \l \i \p \u \hyphen \k \a \s \i  by \uniE844;
-    sub \k \i \w \e \n \hyphen \j \e \l \o  by \uniF032;
-    sub \k \i \w \e \n \hyphen \l \a \s \o  by \uniF033;
-    sub \k \i \w \e \n \hyphen \l \i \l \i  by \uniF034;
-    sub \k \i \w \e \n \hyphen \l \o \j \e  by \uniF035;
-    sub \k \i \w \e \n \hyphen \m \u \n  by \uniF036;
-    sub \k \i \w \e \n \hyphen \p \i \m \e \j \a  by \uniF037;
-    sub \k \i \w \e \n \hyphen \s \u \n \o  by \uniF038;
-    sub \k \i \w \e \n \hyphen \w \a \l \o  by \uniF039;
     sub \s \o \n \a \hyphen \a \l \a  by \uniE917;
     sub \s \e \l \o \hyphen \s \o \w \e \l \i  by \uniE944;
     sub \hyphen \a \k \e \s \i  by \akesi.mark;
     sub \hyphen \a \l \a  by \ala.mark;
     sub \hyphen \a \l \a \s \a  by \alasa.mark;
-    sub \hyphen \a \l \i  by \ale.mark;
     sub \hyphen \a \l \e  by \ale.mark;
+    sub \hyphen \a \l \i  by \ale.mark;
     sub \hyphen \a \n \p \a  by \anpa.mark;
     sub \hyphen \a \n \t \e  by \ante.mark;
     sub \hyphen \a \n \u  by \anu.mark;
@@ -369,7 +330,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \hyphen \o \k \o  by \oko.mark;
     sub \hyphen \l \e \k \o  by \leko.mark;
     sub \hyphen \p \a \k \e  by \pake.mark;
-    sub \l \u \p \a \hyphen \t \o \m \o  by \uniE862;
     sub \t \o \k \i \hyphen \a \l \a  by \uniE958;
     sub \t \o \k \i \hyphen \s \i \n  by \uniE963;
     sub \s \e \l \o \hyphen \l \e \n  by \uniE943;
@@ -377,11 +337,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \hyphen \j \o  by \jo.mark;
     sub \hyphen \k \e \n  by \ken.mark;
     sub \hyphen \k \e \p \e \k \e \n  by \kepeken.mark;
-    sub \k \o \hyphen \k \a \s \i  by \uniE818;
-    sub \k \i \w \e \n \hyphen \k \a \s \i  by \uniF040;
-    sub \k \i \w \e \n \hyphen \l \e \t \e  by \uniF041;
-    sub \k \i \w \e \n \hyphen \s \e \l \i  by \uniF042;
-    sub \l \e \n \hyphen \l \i \l \i  by \uniF070;
     sub \hyphen \i \j \o  by \ijo.mark;
     sub \hyphen \p \i  by \pi.mark;
     sub \hyphen \a  by \a.mark;
@@ -425,14 +380,16 @@ lookup caltContextualAlternateslookup {
 	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]  by [\aa \akesi \ala \alasa \ale \anpa \ante \anu 
 	\awen \ee \en \esun \ijo \ike.base \ilo.base \insa \jaki \jan \jelo \jo \kala \kalama 
 	\kama \kasi.base \ken \kepeken \kili \kiwen \ko \kon.base \kule \kulupu \kute \la 
-	\lape \laso \lawa \len \lete \li \lili \linja \lipu \loje \lon \luka.base \lukin \lupa 
-	\ma.base \mama \mani \meli \mi \mije \moku \moli \monsi \mu \mun \musi \mute \nanpa 
-	\nasa \nasin \nena \ni \nimi \noka \oo \olin \ona \open \pakala \pali \palisa \pan 
-	\pana \pi \pilin \pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme 
-	\sewi \sijelo \sike \sin \sina \sinpin \sitelen.base \sona \soweli \suli \suno 
-	\supa.base \suwi \tan \taso \tawa \telo \tenpo.base \toki \tomo \tu \unpa \uta \utala 
-	\walo \wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ];
-    sub [\ike.base \ilo.base \kasi.base \luka.base \ma.base \supa.base \tenpo.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\lape \laso \lawa \len.base \lete \li \lili \linja.base \lipu \loje \lon \luka.base 
+	\lukin \lupa \ma.base \mama \mani \meli \mi \mije \moku \moli \monsi \mu \mun \musi 
+	\mute \nanpa \nasa \nasin \nena \ni \nimi \noka \oo \olin \ona \open \pakala \pali 
+	\palisa \pan \pana \pi \pilin \pimeja \pini \pipi \poka \poki \pona \pu \sama \seli 
+	\selo \seme \sewi \sijelo \sike \sin \sina \sinpin \sitelen.base \sona \soweli \suli 
+	\suno \supa.base \suwi \tan \taso \tawa \telo \tenpo.base \toki \tomo \tu \unpa \uta 
+	\utala \walo \wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko 
+	\pake ];
+    sub [\ike.base \ilo.base \kalama \kasi.base \luka.base \ma.base \supa.base 
+	\tenpo.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -457,23 +414,24 @@ lookup caltContextualAlternateslookup {
 	\ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
 	\jan.mark.small \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark 
 	\kasi.sup \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark \kon.mark 
-	\kule.mark \kulupu.mark \kute.mark \la.mark \lape.sup \laso.mark.small 
+	\kule.mark.small \kulupu.mark \kute.mark \la.mark \lape.sup \laso.mark.small 
 	\lawa.sup \len.mark \lete.mark.small \li.mark \lili.sup \linja.mark \lipu.mark 
-	\loje.mark.small \lon.mark \luka.sup \lukin.sup \lupa.sup \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.sup \moli.sup \monsi.sup 
-	\mu.mark \mun.mark \musi.sup \mute.mark \nanpa.sup \nasa.mark.small \nasin.mark 
-	\nena.mark \ni.mark \nimi.mark \noka.mark.small \o.mark \olin.mark \ona.mark 
-	\open.sup \pakala.mark \pali.sup \palisa.mark \pan.mark \pana.mark \pi.mark 
-	\pilin.mark \pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark 
-	\pona.mark \pu.mark \sama.mark \seli.mark.small \selo.mark \seme.mark 
-	\sewi.mark \sijelo.mark \sike.mark \sin.mark.small \sina.mark \sinpin.mark 
-	\sitelen.mark \sona.mark \soweli.mark \suli.mark \suno.sup \supa.mark 
-	\suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.sup 
-	\tomo.sup \tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \leko.mark 
-	\monsuta.mark \namako.mark \oko.sup \pake.mark ];
-    sub [\kala \kili \kiwen \ko \kon \kon.base \lape \len \mama \meli \suno \wawa \sitelen 
-	\sitelen.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\loje.mark.small \lon.mark \luka.sup \lukin.sup \lupa.sup \ma.mark.small 
+	\mama.mark \mani.mark \meli.mark \mi.mark \mije.mark \moku.sup \moli.sup 
+	\monsi.sup \mu.mark \mun.mark.small \musi.sup \mute.mark \nanpa.sup 
+	\nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark.small 
+	\o.mark \olin.mark \ona.mark \open.sup \pakala.mark \pali.sup 
+	\palisa.mark.small \pan.mark \pana.mark \pi.mark \pilin.mark 
+	\pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark \pona.sup 
+	\pu.mark \sama.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark 
+	\sijelo.mark \sike.mark \sin.mark.small \sina.mark \sinpin.mark 
+	\sitelen.mark.small \sona.mark \soweli.mark \suli.mark \suno.sup \supa.mark 
+	\suwi.mark.small \tan.mark \taso.mark \tawa.mark.small \telo.mark \tenpo.mark 
+	\toki.sup \tomo.sup \tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark.small 
+	\wan.mark \waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
+	\leko.mark \monsuta.mark \namako.mark \oko.sup \pake.mark ];
+    sub [\kala \kili \kiwen \ko \kon \kon.base \lape \len \lipu \mama \meli \suno \wawa 
+	\sitelen \sitelen.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -497,23 +455,24 @@ lookup caltContextualAlternateslookup {
 	\ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark \en.mark \esun.mark 
 	\ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
 	\jan.mark.small \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark 
-	\kasi.mark \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark \kon.mark 
-	\kule.mark \kulupu.mark \kute.mark \la.mark \lape.mark \laso.mark.small 
-	\lawa.mark.small \len.mark \lete.mark.small \li.mark \lili.mark.small 
-	\linja.mark \lipu.mark \loje.mark.small \lon.mark \luka.mark.small \lukin.mark 
-	\lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark \mije.mark 
-	\moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark 
-	\nanpa.mark \nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark 
-	\noka.mark.small \o.mark \olin.mark \ona.mark \open.mark \pakala.mark 
-	\pali.mark \palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark 
-	\pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark 
-	\pu.mark \sama.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark 
-	\sijelo.mark \sike.mark \sin.mark.small \sina.mark \sinpin.mark \sitelen.mark 
-	\sona.mark \soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark \tu.mark 
+	\kasi.mark.small \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark 
+	\kon.mark \kule.mark.small \kulupu.mark \kute.mark \la.mark \lape.mark 
+	\laso.mark.small \lawa.mark.small \len.mark \lete.mark.small \li.mark 
+	\lili.mark.small \linja.mark \lipu.mark \loje.mark.small \lon.mark 
+	\luka.mark.small \lukin.mark \lupa.mark \ma.mark.small \mama.mark \mani.mark 
+	\meli.mark \mi.mark \mije.mark \moku.mark \moli.mark \monsi.mark \mu.mark 
+	\mun.mark.small \musi.mark \mute.mark \nanpa.mark \nasa.mark.small \nasin.mark 
+	\nena.mark \ni.mark \nimi.mark \noka.mark.small \o.mark \olin.mark \ona.mark 
+	\open.mark \pakala.mark \pali.mark \palisa.mark.small \pan.mark \pana.mark 
+	\pi.mark \pilin.mark \pimeja.mark.small \pini.mark \pipi.mark \poka.mark 
+	\poki.mark \pona.mark.small \pu.mark \sama.mark \seli.mark.small \selo.mark 
+	\seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark.small \sina.mark 
+	\sinpin.mark \sitelen.mark.small \sona.mark \soweli.mark \suli.mark 
+	\suno.mark.small \supa.mark \suwi.mark.small \tan.mark \taso.mark 
+	\tawa.mark.small \telo.mark \tenpo.mark \toki.mark.small \tomo.mark \tu.mark 
 	\unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark \waso.mark 
 	\wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \leko.mark 
-	\monsuta.mark \namako.mark \oko.mark \pake.mark ];
+	\monsuta.mark.small \namako.mark \oko.mark \pake.mark ];
 } caltContextualAlternateslookup;
 
 feature liga {
@@ -543,14 +502,22 @@ feature calt {
 
 lookup markMarkPositioninglookup0 {
   lookupflag 0;
-  markClass [\ike.mark \lili.mark \pona.mark \jaki.mark.small \monsuta.mark \uta.mark \nasa.mark.small \walo.mark.small \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \esun.mark \ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \kala.mark \kalama.mark \kama.mark \kasi.mark \kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark \kute.mark \lape.mark \laso.mark \lawa.mark \len.mark \lete.mark \linja.mark \lipu.mark \loje.mark \lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark \nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark \palisa.mark \pan.mark \pana.mark \pilin.mark \pimeja.mark \pini.mark \pipi.mark \poka.mark \poki.mark \pu.mark \sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark \soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark \tu.mark \unpa.mark \utala.mark \walo.mark \wan.mark \waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \namako.mark \oko.mark \leko.mark \pake.mark \en.mark \jo.mark \ken.mark \kepeken.mark \jelo.mark.small \laso.mark.small \loje.mark.small \pimeja.mark.small \seli.mark.small \ijo.mark \pi.mark \a.mark ] <anchor 1025 800> @Anchor;
+  markClass [\ike.mark \lili.mark \jaki.mark.small \monsuta.mark \uta.mark \nasa.mark.small \kule.mark.small \walo.mark.small \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \esun.mark \ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \kala.mark \kalama.mark \kama.mark \kasi.mark \kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark \kute.mark \lape.mark \laso.mark \lawa.mark \len.mark \lete.mark \linja.mark \lipu.mark \loje.mark \lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark \nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark \palisa.mark \pan.mark \pana.mark \pilin.mark \pimeja.mark \pini.mark \pipi.mark \poka.mark \poki.mark \pu.mark \sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark \soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark \tu.mark \unpa.mark \utala.mark \walo.mark \wan.mark \waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \namako.mark \oko.mark \leko.mark \pake.mark \en.mark \jo.mark \ken.mark \kepeken.mark \jelo.mark.small \laso.mark.small \loje.mark.small \pimeja.mark.small \kasi.mark.small \seli.mark.small \ijo.mark \pi.mark \a.mark ] <anchor 1025 800> @Anchor;
+  markClass [\pona.mark ] <anchor 1025 850> @Anchor;
   markClass [\lape.sup \musi.sup \nanpa.sup \open.sup \suno.sup \toki.sup \lukin.sup \kipisi.sup \moli.sup \oko.sup \luka.sup ] <anchor 1025 1350> @Anchor;
   markClass [\lili.mark.small \lete.mark.small ] <anchor 1255 750> @Anchor;
+  markClass [\palisa.mark.small ] <anchor 1025 520> @Anchor;
+  markClass [\suwi.mark.small ] <anchor 1025 640> @Anchor;
   markClass [\jan.mark.small \lawa.mark.small \luka.mark.small \noka.mark.small \sin.mark.small ] <anchor 1025 1000> @Anchor;
+  markClass [\tawa.mark.small \monsuta.mark.small \pona.mark.small \ma.mark.small \toki.mark.small ] <anchor 1025 600> @Anchor;
   markClass [\ike.mark.small ] <anchor 1025 595> @Anchor;
   markClass [\lawa.sup \moku.sup \pali.sup \lupa.sup ] <anchor 1025 1230> @Anchor;
   markClass [\monsi.sup ] <anchor 1025 1200> @Anchor;
+  markClass [\pona.sup ] <anchor 1025 1415> @Anchor;
+  markClass [\sitelen.mark.small ] <anchor 1025 570> @Anchor;
   markClass [\kasi.sup \tomo.sup ] <anchor 1025 1370> @Anchor;
+  markClass [\mun.mark.small ] <anchor 1025 930> @Anchor;
+  markClass [\suno.mark.small ] <anchor 1025 875> @Anchor;
   markClass [\ala.sup \lili.sup ] <anchor 1025 1430> @Anchor;
   markClass [\e.mark ] <anchor 950 825> @Anchor;
   markClass [\o.mark ] <anchor 1025 799> @Anchor;
@@ -561,10 +528,11 @@ lookup markMarkPositioninglookup0 {
   pos base [\ike ] <anchor 1025 550> mark @Anchor;
   pos base [\jan ] <anchor 1025 850> mark @Anchor;
   pos base [\kala ] <anchor 1275 750> mark @Anchor;
+  pos base [\kalama ] <anchor 1025 1450> mark @Anchor;
   pos base [\kili ] <anchor 1025 600> mark @Anchor;
   pos base [\kiwen ] <anchor 1025 950> mark @Anchor;
   pos base [\lape ] <anchor 1225 825> mark @Anchor;
-  pos base [\len \pona ] <anchor 1025 1000> mark @Anchor;
+  pos base [\len \len.base ] <anchor 1025 1000> mark @Anchor;
   pos base [\luka ] <anchor 1200 600> mark @Anchor;
   pos base [\lupa ] <anchor 1025 900> mark @Anchor;
   pos base [\mama ] <anchor 1025 1025> mark @Anchor;
@@ -576,6 +544,7 @@ lookup markMarkPositioninglookup0 {
   pos base [\ona ] <anchor 1125 800> mark @Anchor;
   pos base [\pilin ] <anchor 1025 750> mark @Anchor;
   pos base [\poka ] <anchor 885 800> mark @Anchor;
+  pos base [\pona ] <anchor 1025 1365> mark @Anchor;
   pos base [\sina ] <anchor 1060 650> mark @Anchor;
   pos base [\sona \sitelen.base ] <anchor 1025 595> mark @Anchor;
   pos base [\suno ] <anchor 1025 785> mark @Anchor;
@@ -584,6 +553,7 @@ lookup markMarkPositioninglookup0 {
   pos base [\wawa ] <anchor 1025 725> mark @Anchor;
   pos base [\kasi.base \ma.base \tenpo.base ] <anchor 1025 1370> mark @Anchor;
   pos base [\kon.base ] <anchor 1025 830> mark @Anchor;
+  pos base [\linja.base ] <anchor 1025 1415> mark @Anchor;
   pos base [\luka.base \ilo.base ] <anchor 1025 1350> mark @Anchor;
   pos base [\supa.base ] <anchor 1025 1230> mark @Anchor;
   pos base [\ike.base ] <anchor 1025 1400> mark @Anchor;
@@ -603,6 +573,7 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup0;
 } mark;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\NULL \CR \space \exclam \quotedbl \numbersign \dollar \percent 
 	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
@@ -619,13 +590,9 @@ feature mark {
 	\sfthyphen \registered \overscore \degree \plusminus \twosuperior 
 	\threesuperior \acute \mu1 \paragraph \middot.001 \cedilla \onesuperior 
 	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
-	\questiondown \space.001 \_65535 \telokule \telo_lete \uniE700 \uniE25 \uniE750 
-	\uniE751 \uniE752 \uniE753 \uniE754 \uniE755 \uniE756 \uniE757 \uniE758 \uniE759 
-	\uniE760 \uniE761 \uniE762 \uniE763 \uniE764 \uniE765 \uniE766 \uniE767 \uniE768 
-	\uniE769 \uniE770 \uniE771 \uniE772 \uniE773 \uniE774 \uniE775 \uniE776 \uniE777 
-	\kasi.base \uniE821 \kon.base \luka.base \supa.base \uniF002 \uni0000 \uni0001 
-	\uniE778 \uniF003 \uniE832 \uniE833 \uniE834 \uniE839 \sitelen.base \ma.base 
-	\uniF060 \uniF061 \ike.base \uniF066 \uniE841 \uniE822 \ilo.base \tenpo.base ];
+	\questiondown \space.001 \_65535 \telokule \telo_lete \uniE25 \kasi.base 
+	\kon.base \linja.base \luka.base \supa.base \uni0000 \uni0001 \sitelen.base 
+	\ma.base \ike.base \len.base \ilo.base \tenpo.base ];
 @GDEF_Ligature = [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo 
 	\ike \ilo \insa \jaki \jan \jelo \jo \kala \kalama \kama \kasi \ken \kepeken \kili 
 	\kiwen \ko \kon \kule \kulupu \kute \la \lape \laso \lawa \len \lete \li \lili \linja 
@@ -634,46 +601,44 @@ feature mark {
 	\pakala \pali \palisa \pan \pana \pi \pilin \pimeja \pini \pipi \poka \poki \pona \pu 
 	\sama \seli \selo \seme \sewi \sijelo \sike \sin \sina \sinpin \sitelen \sona 
 	\soweli \suli \suno \supa \suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa 
-	\uta \utala \walo \wan \waso \wawa \weka \wile \uniE678 \uniE679 \uniE680 \uniE681 
-	\uniE810 \uniE811 \uniE812 \uniE813 \uniE842 \uniE845 \uniE846 \uniE855 \uniE856 
-	\uniE857 \uniE858 \uniE859 \uniE865 \uniE866 \uniE867 \uniE870 \uniE871 \uniE872 
-	\uniE875 \uniE876 \uniE877 \uniE878 \uniE803 \uniE880 \uniE881 \uniE882 \uniE883 
-	\uniE884 \uniE890 \uniE893 \uniE894 \uniE895 \uniE905 \uniE906 \uniE907 \uniE908 
-	\uniE915 \uniE918 \uniE920 \uniE921 \uniE922 \uniE879 \uniE913 \uniE925 \uniE923 
-	\uniE926 \uniE930 \uniE955 \uniE956 \uniE960 \uniE961 \uniE962 \uniE975 \uniE965 
-	\uniE966 \uniE967 \uniE968 \uniE969 \uniE972 \uniE973 \uniE974 \uniE990 \uniE991 
-	\uniE996 \uniE682 \uniE683 \uniE685 \kin \kipisi \leko \monsuta \namako \oko \pake 
-	\uniE896 \uniE897 \uniE898 \uniE843 \uniE868 \uniE869 \uniE873 \uniE874 \uniF004 
-	\uniF011 \uniF012 \uniF013 \uniF014 \uniE819 \uniE847 \uniE848 \uniE854 \uniE808 
-	\uniE809 \uniE814 \uniE815 \uniE860 \uniE909 \uniE910 \uniE844 \uniF032 \uniF033 
-	\uniF034 \uniF035 \uniF036 \uniF037 \uniF038 \uniF039 \uniE917 \uniE944 \uniE862 
-	\uniE958 \uniE963 \uniE943 \uniE818 \uniF040 \uniF041 \uniF042 \uniF070 ];
+	\uta \utala \walo \wan \waso \wawa \weka \wile \uniE679 \uniE680 \uniE681 \uniE865 
+	\uniE866 \uniE867 \uniE870 \uniE871 \uniE872 \uniE875 \uniE876 \uniE877 \uniE878 
+	\uniE880 \uniE881 \uniE882 \uniE883 \uniE884 \uniE890 \uniE893 \uniE894 \uniE895 
+	\uniE905 \uniE906 \uniE907 \uniE908 \uniE918 \uniE920 \uniE921 \uniE922 \uniE879 
+	\uniE913 \uniE925 \uniE923 \uniE926 \uniE930 \uniE955 \uniE956 \uniE960 \uniE961 
+	\uniE962 \uniE975 \uniE965 \uniE966 \uniE967 \uniE968 \uniE969 \uniE972 \uniE973 
+	\uniE974 \uniE990 \uniE991 \uniE996 \uniE682 \uniE683 \uniE685 \kin \kipisi \leko 
+	\monsuta \namako \oko \pake \uniE896 \uniE897 \uniE898 \uniE868 \uniE869 \uniE873 
+	\uniE874 \uniE909 \uniE910 \uniE917 \uniE944 \uniE958 \uniE963 \uniE943 ];
 @GDEF_Mark = [\ike.mark \lili.mark \pona.mark \lape.sup \musi.sup \nanpa.sup 
 	\open.sup \suno.sup \toki.sup \lili.mark.small \lete.mark.small 
-	\jaki.mark.small \jan.mark.small \lawa.mark.small \luka.mark.small 
-	\noka.mark.small \ike.mark.small \lawa.sup \moku.sup \monsi.sup \pali.sup 
-	\monsuta.mark \uta.mark \nasa.mark.small \sin.mark.small \kasi.sup \tomo.sup 
-	\walo.mark.small \lukin.sup \kipisi.sup \ala.sup \lili.sup \moli.sup \oko.sup 
-	\akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark 
-	\awen.mark \esun.mark \ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \kili.mark \kiwen.mark \ko.mark 
-	\kon.mark \kule.mark \kulupu.mark \kute.mark \lape.mark \laso.mark \lawa.mark 
-	\len.mark \lete.mark \linja.mark \lipu.mark \loje.mark \lon.mark \luka.mark 
-	\lukin.mark \lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark 
-	\mije.mark \moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark \musi.mark 
-	\mute.mark \nanpa.mark \nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark 
-	\noka.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pilin.mark \pimeja.mark \pini.mark 
-	\pipi.mark \poka.mark \poki.mark \pu.mark \sama.mark \seli.mark \selo.mark 
-	\seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark \sina.mark 
+	\palisa.mark.small \suwi.mark.small \jaki.mark.small \jan.mark.small 
+	\lawa.mark.small \luka.mark.small \noka.mark.small \tawa.mark.small 
+	\ike.mark.small \lawa.sup \moku.sup \monsi.sup \pali.sup \monsuta.mark 
+	\uta.mark \nasa.mark.small \pona.sup \sin.mark.small \monsuta.mark.small 
+	\pona.mark.small \ma.mark.small \sitelen.mark.small \toki.mark.small 
+	\kasi.sup \tomo.sup \kule.mark.small \walo.mark.small \lukin.sup 
+	\mun.mark.small \suno.mark.small \kipisi.sup \ala.sup \lili.sup \moli.sup 
+	\oko.sup \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\anu.mark \awen.mark \esun.mark \ilo.mark \insa.mark \jaki.mark \jan.mark 
+	\jelo.mark \kala.mark \kalama.mark \kama.mark \kasi.mark \kili.mark 
+	\kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark \kute.mark \lape.mark 
+	\laso.mark \lawa.mark \len.mark \lete.mark \linja.mark \lipu.mark \loje.mark 
+	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark \mani.mark 
+	\meli.mark \mi.mark \mije.mark \moku.mark \moli.mark \monsi.mark \mu.mark 
+	\mun.mark \musi.mark \mute.mark \nanpa.mark \nasa.mark \nasin.mark \nena.mark 
+	\ni.mark \nimi.mark \noka.mark \olin.mark \ona.mark \open.mark \pakala.mark 
+	\pali.mark \palisa.mark \pan.mark \pana.mark \pilin.mark \pimeja.mark 
+	\pini.mark \pipi.mark \poka.mark \poki.mark \pu.mark \sama.mark \seli.mark 
+	\selo.mark \seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark \sina.mark 
 	\sinpin.mark \sitelen.mark \sona.mark \soweli.mark \suli.mark \suno.mark 
 	\supa.mark \suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark 
 	\toki.mark \tomo.mark \tu.mark \unpa.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
 	\namako.mark \oko.mark \leko.mark \pake.mark \lupa.sup \en.mark \jo.mark 
 	\ken.mark \kepeken.mark \jelo.mark.small \laso.mark.small \loje.mark.small 
-	\pimeja.mark.small \seli.mark.small \ijo.mark \pi.mark \a.mark \e.mark \o.mark 
-	\la.mark \li.mark \luka.sup ];
+	\pimeja.mark.small \kasi.mark.small \seli.mark.small \ijo.mark \pi.mark 
+	\a.mark \e.mark \o.mark \la.mark \li.mark \luka.sup ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

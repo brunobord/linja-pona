@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniF070" format="1">
+<glyph name="len.base" format="1">
   <advance width="2048"/>
   <unicode hex="F070"/>
   <outline>
+    <contour>
+      <point x="1025" y="1000" type="move" name="Anchor"/>
+    </contour>
     <contour>
       <point x="236" y="1710" type="line"/>
       <point x="1812" y="1710" type="line"/>
@@ -29,17 +32,7 @@
       <point x="358" y="512" type="line"/>
       <point x="358" y="410" type="line"/>
       <point x="963" y="410" type="line"/>
-      <point x="963" y="410" type="line"/>
       <point x="1085" y="410" type="line"/>
-      <point x="1085" y="410" type="line"/>
-    </contour>
-    <contour>
-      <point x="1024" y="967" type="line"/>
-      <point x="1186" y="1166" type="line"/>
-      <point x="1281" y="1089" type="line"/>
-      <point x="1024" y="771" type="line"/>
-      <point x="767" y="1089" type="line"/>
-      <point x="862" y="1167" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -53,12 +46,6 @@
             <integer>287</integer>
             <key>width</key>
             <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1069</integer>
-            <key>width</key>
-            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>

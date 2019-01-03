@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniF036" format="1">
+<glyph name="mun.mark.small" format="1">
   <advance width="2048"/>
   <unicode hex="F036"/>
   <outline>
     <contour>
-      <point x="1024" y="-141" type="line"/>
-      <point x="76" y="863" type="line"/>
-      <point x="581" y="1649" type="line"/>
-      <point x="1467" y="1649" type="line"/>
-      <point x="1972" y="863" type="line"/>
-    </contour>
-    <contour>
-      <point x="231" y="878" type="line"/>
-      <point x="1024" y="38" type="line"/>
-      <point x="1817" y="878" type="line"/>
-      <point x="1400" y="1526" type="line"/>
-      <point x="648" y="1526" type="line"/>
+      <point x="1025" y="930" type="move" name="_Anchor"/>
     </contour>
     <contour>
       <point x="936" y="475" type="curve" smooth="yes"/>
@@ -111,12 +100,6 @@
             <integer>1280</integer>
             <key>width</key>
             <integer>102</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1526</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>

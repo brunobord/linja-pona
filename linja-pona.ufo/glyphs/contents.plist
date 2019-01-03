@@ -250,8 +250,6 @@
     <string>uniE_676.glif</string>
     <key>wile</key>
     <string>uniE_677.glif</string>
-    <key>uniE678</key>
-    <string>uniE_678.glif</string>
     <key>uniE679</key>
     <string>uniE_679.glif</string>
     <key>exclam</key>
@@ -572,8 +570,6 @@
     <string>uniE_680.glif</string>
     <key>uniE681</key>
     <string>uniE_681.glif</string>
-    <key>uniE700</key>
-    <string>uniE_700.glif</string>
     <key>ike.mark</key>
     <string>ike.mark.glif</string>
     <key>lili.mark</key>
@@ -594,80 +590,18 @@
     <string>uniE_25.glif</string>
     <key>toki.sup</key>
     <string>toki.sup.glif</string>
-    <key>uniE750</key>
-    <string>uniE_750.glif</string>
-    <key>uniE751</key>
-    <string>uniE_751.glif</string>
-    <key>uniE752</key>
-    <string>uniE_752.glif</string>
-    <key>uniE753</key>
-    <string>uniE_753.glif</string>
-    <key>uniE754</key>
-    <string>uniE_754.glif</string>
-    <key>uniE755</key>
-    <string>uniE_755.glif</string>
-    <key>uniE756</key>
-    <string>uniE_756.glif</string>
-    <key>uniE757</key>
-    <string>uniE_757.glif</string>
-    <key>uniE758</key>
-    <string>uniE_758.glif</string>
-    <key>uniE759</key>
-    <string>uniE_759.glif</string>
-    <key>uniE760</key>
-    <string>uniE_760.glif</string>
-    <key>uniE761</key>
-    <string>uniE_761.glif</string>
-    <key>uniE762</key>
-    <string>uniE_762.glif</string>
-    <key>uniE763</key>
-    <string>uniE_763.glif</string>
-    <key>uniE764</key>
-    <string>uniE_764.glif</string>
-    <key>uniE765</key>
-    <string>uniE_765.glif</string>
-    <key>uniE766</key>
-    <string>uniE_766.glif</string>
-    <key>uniE767</key>
-    <string>uniE_767.glif</string>
-    <key>uniE768</key>
-    <string>uniE_768.glif</string>
-    <key>uniE769</key>
-    <string>uniE_769.glif</string>
-    <key>uniE770</key>
-    <string>uniE_770.glif</string>
-    <key>uniE771</key>
-    <string>uniE_771.glif</string>
-    <key>uniE772</key>
-    <string>uniE_772.glif</string>
-    <key>uniE773</key>
-    <string>uniE_773.glif</string>
-    <key>uniE774</key>
-    <string>uniE_774.glif</string>
-    <key>uniE775</key>
-    <string>uniE_775.glif</string>
-    <key>uniE776</key>
-    <string>uniE_776.glif</string>
-    <key>uniE777</key>
-    <string>uniE_777.glif</string>
     <key>lili.mark.small</key>
     <string>lili.mark.small.glif</string>
     <key>lete.mark.small</key>
     <string>lete.mark.small.glif</string>
     <key>kasi.base</key>
     <string>kasi.base.glif</string>
-    <key>uniE810</key>
-    <string>uniE_810.glif</string>
-    <key>uniE811</key>
-    <string>uniE_811.glif</string>
-    <key>uniE812</key>
+    <key>palisa.mark.small</key>
     <string>uniE_812.glif</string>
-    <key>uniE813</key>
+    <key>suwi.mark.small</key>
     <string>uniE_813.glif</string>
     <key>jaki.mark.small</key>
     <string>jaki.mark.small.glif</string>
-    <key>uniE821</key>
-    <string>uniE_821.glif</string>
     <key>kon.base</key>
     <string>kon.base.glif</string>
     <key>jan.mark.small</key>
@@ -678,24 +612,10 @@
     <string>luka.mark.small.glif</string>
     <key>noka.mark.small</key>
     <string>noka.mark.small.glif</string>
-    <key>uniE842</key>
+    <key>linja.base</key>
     <string>uniE_842.glif</string>
-    <key>uniE845</key>
-    <string>uniE_845.glif</string>
-    <key>uniE846</key>
-    <string>uniE_846.glif</string>
     <key>luka.base</key>
     <string>luka.base.glif</string>
-    <key>uniE855</key>
-    <string>uniE_855.glif</string>
-    <key>uniE856</key>
-    <string>uniE_856.glif</string>
-    <key>uniE857</key>
-    <string>uniE_857.glif</string>
-    <key>uniE858</key>
-    <string>uniE_858.glif</string>
-    <key>uniE859</key>
-    <string>uniE_859.glif</string>
     <key>uniE865</key>
     <string>uniE_865.glif</string>
     <key>uniE866</key>
@@ -716,8 +636,6 @@
     <string>uniE_877.glif</string>
     <key>uniE878</key>
     <string>uniE_878.glif</string>
-    <key>uniE803</key>
-    <string>uniE_803.glif</string>
     <key>uniE880</key>
     <string>uniE_880.glif</string>
     <key>uniE881</key>
@@ -744,7 +662,7 @@
     <string>uniE_907.glif</string>
     <key>uniE908</key>
     <string>uniE_908.glif</string>
-    <key>uniE915</key>
+    <key>tawa.mark.small</key>
     <string>uniE_915.glif</string>
     <key>uniE918</key>
     <string>uniE_918.glif</string>
@@ -834,27 +752,21 @@
     <string>uniE_696.glif</string>
     <key>monsuta.mark</key>
     <string>monsuta.mark.glif</string>
-    <key>uniF002</key>
-    <string>uniF_002.glif</string>
     <key>uta.mark</key>
     <string>uta.mark.glif</string>
     <key>uni0000</key>
     <string>uni0000.glif</string>
     <key>uni0001</key>
     <string>uni0001.glif</string>
-    <key>uniE778</key>
-    <string>uniE_778.glif</string>
     <key>uniE896</key>
     <string>uniE_896.glif</string>
     <key>uniE897</key>
     <string>uniE_897.glif</string>
     <key>uniE898</key>
     <string>uniE_898.glif</string>
-    <key>uniF003</key>
-    <string>uniF_003.glif</string>
     <key>nasa.mark.small</key>
     <string>nasa.mark.small.glif</string>
-    <key>uniE843</key>
+    <key>pona.sup</key>
     <string>uniE_843.glif</string>
     <key>uniE868</key>
     <string>uniE_868.glif</string>
@@ -864,27 +776,19 @@
     <string>uniE_873.glif</string>
     <key>uniE874</key>
     <string>uniE_874.glif</string>
-    <key>uniE832</key>
-    <string>uniE_832.glif</string>
-    <key>uniE833</key>
-    <string>uniE_833.glif</string>
-    <key>uniE834</key>
-    <string>uniE_834.glif</string>
-    <key>uniE839</key>
-    <string>uniE_839.glif</string>
     <key>sin.mark.small</key>
     <string>sin.mark.small.glif</string>
-    <key>uniF004</key>
+    <key>monsuta.mark.small</key>
     <string>uniF_004.glif</string>
     <key>sitelen.base</key>
     <string>sitelen.base.glif</string>
-    <key>uniF011</key>
+    <key>pona.mark.small</key>
     <string>uniF_011.glif</string>
-    <key>uniF012</key>
+    <key>ma.mark.small</key>
     <string>uniF_012.glif</string>
-    <key>uniF013</key>
+    <key>sitelen.mark.small</key>
     <string>uniF_013.glif</string>
-    <key>uniF014</key>
+    <key>toki.mark.small</key>
     <string>uniF_014.glif</string>
     <key>ma.base</key>
     <string>ma.base.glif</string>
@@ -892,56 +796,22 @@
     <string>kasi.sup.glif</string>
     <key>tomo.sup</key>
     <string>tomo.sup.glif</string>
-    <key>uniE819</key>
+    <key>kule.mark.small</key>
     <string>uniE_819.glif</string>
     <key>walo.mark.small</key>
     <string>walo.mark.small.glif</string>
-    <key>uniE847</key>
-    <string>uniE_847.glif</string>
-    <key>uniE848</key>
-    <string>uniE_848.glif</string>
-    <key>uniE854</key>
-    <string>uniE_854.glif</string>
-    <key>uniE808</key>
-    <string>uniE_808.glif</string>
-    <key>uniE809</key>
-    <string>uniE_809.glif</string>
-    <key>uniE814</key>
-    <string>uniE_814.glif</string>
-    <key>uniE815</key>
-    <string>uniE_815.glif</string>
-    <key>uniE860</key>
-    <string>uniE_860.glif</string>
     <key>uniE909</key>
     <string>uniE_909.glif</string>
     <key>uniE910</key>
     <string>uniE_910.glif</string>
     <key>lukin.sup</key>
     <string>lukin.sup.glif</string>
-    <key>uniE844</key>
-    <string>uniE_844.glif</string>
-    <key>uniF032</key>
-    <string>uniF_032.glif</string>
-    <key>uniF033</key>
-    <string>uniF_033.glif</string>
-    <key>uniF034</key>
-    <string>uniF_034.glif</string>
-    <key>uniF035</key>
-    <string>uniF_035.glif</string>
-    <key>uniF036</key>
+    <key>mun.mark.small</key>
     <string>uniF_036.glif</string>
-    <key>uniF037</key>
-    <string>uniF_037.glif</string>
-    <key>uniF038</key>
+    <key>suno.mark.small</key>
     <string>uniF_038.glif</string>
-    <key>uniF039</key>
-    <string>uniF_039.glif</string>
     <key>kipisi.sup</key>
     <string>kipisi.sup.glif</string>
-    <key>uniF060</key>
-    <string>uniF_060.glif</string>
-    <key>uniF061</key>
-    <string>uniF_061.glif</string>
     <key>ala.sup</key>
     <string>ala.sup.glif</string>
     <key>lili.sup</key>
@@ -952,8 +822,6 @@
     <string>oko.sup.glif</string>
     <key>ike.base</key>
     <string>ike.base.glif</string>
-    <key>uniF066</key>
-    <string>uniF_066.glif</string>
     <key>uniE917</key>
     <string>uniE_917.glif</string>
     <key>uniE944</key>
@@ -1180,10 +1048,6 @@
     <string>leko.mark.glif</string>
     <key>pake.mark</key>
     <string>pake.mark.glif</string>
-    <key>uniE841</key>
-    <string>uniE_841.glif</string>
-    <key>uniE862</key>
-    <string>uniE_862.glif</string>
     <key>uniE958</key>
     <string>uniE_958.glif</string>
     <key>uniE963</key>
@@ -1208,17 +1072,9 @@
     <string>loje.mark.small.glif</string>
     <key>pimeja.mark.small</key>
     <string>pimeja.mark.small.glif</string>
-    <key>uniE822</key>
-    <string>uniE_822.glif</string>
-    <key>uniE818</key>
+    <key>kasi.mark.small</key>
     <string>uniE_818.glif</string>
-    <key>uniF040</key>
-    <string>uniF_040.glif</string>
-    <key>uniF041</key>
-    <string>uniF_041.glif</string>
-    <key>uniF042</key>
-    <string>uniF_042.glif</string>
-    <key>uniF070</key>
+    <key>len.base</key>
     <string>uniF_070.glif</string>
     <key>seli.mark.small</key>
     <string>seli.mark.small.glif</string>
