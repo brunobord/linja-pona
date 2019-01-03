@@ -393,7 +393,7 @@ lookup ligaStandardLigaturesinLatinlookup0 {
 
 lookup caltContextualAlternateslookup {
   lookupflag 0;
-    @cc4_match_1 = [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike \ilo \insa 
+    sub [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike \ilo \insa 
 	\jaki \jan \jelo \jo \kala \kalama \kama \kasi \ken \kepeken \kili \kiwen 
 	\ko \kon \kule \kulupu \kute \la \lape \laso \lawa \len \lete \li \lili 
 	\linja \lipu \loje \lon \luka \lukin \lupa \ma \mama \mani \meli \mi \mije 
@@ -402,8 +402,7 @@ lookup caltContextualAlternateslookup {
 	\pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme \sewi 
 	\sijelo \sike \sin \sina \sinpin \sitelen \sona \soweli \suli \suno \supa 
 	\suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa \uta \utala \walo 
-	\wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ];
-    @cc4_match_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ]' [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -423,18 +422,17 @@ lookup caltContextualAlternateslookup {
 	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
 	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc4_back_1 = [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike \ilo \insa 
-	\jaki \jan \jelo \jo \kala \kalama \kama \kasi \ken \kepeken \kili \kiwen 
-	\ko \kon \kule \kulupu \kute \la \lape \laso \lawa \len \lete \li \lili 
-	\linja \lipu \loje \lon \luka \lukin \lupa \ma \mama \mani \meli \mi \mije 
-	\moku \moli \monsi \mu \mun \musi \mute \nanpa \nasa \nasin \nena \ni \nimi 
-	\noka \oo \olin \ona \open \pakala \pali \palisa \pan \pana \pi \pilin 
-	\pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme \sewi 
-	\sijelo \sike \sin \sina \sinpin \sitelen \sona \soweli \suli \suno \supa 
-	\suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa \uta \utala \walo 
-	\wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ];
-    @cc4_back_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]  by [\aa \akesi \ala \alasa \ale \anpa \ante \anu 
+	\awen \ee \en \esun \ijo \ike.base \ilo.base \insa \jaki \jan \jelo \jo \kala \kalama 
+	\kama \kasi.base \ken \kepeken \kili \kiwen \ko \kon.base \kule \kulupu \kute \la 
+	\lape \laso \lawa \len \lete \li \lili \linja \lipu \loje \lon \luka.base \lukin \lupa 
+	\ma.base \mama \mani \meli \mi \mije \moku \moli \monsi \mu \mun \musi \mute \nanpa 
+	\nasa \nasin \nena \ni \nimi \noka \oo \olin \ona \open \pakala \pali \palisa \pan 
+	\pana \pi \pilin \pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme 
+	\sewi \sijelo \sike \sin \sina \sinpin \sitelen.base \sona \soweli \suli \suno 
+	\supa.base \suwi \tan \taso \tawa \telo \tenpo.base \toki \tomo \tu \unpa \uta \utala 
+	\walo \wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ];
+    sub [\ike.base \ilo.base \kasi.base \luka.base \ma.base \supa.base \tenpo.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -454,18 +452,28 @@ lookup caltContextualAlternateslookup {
 	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
 	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc4_ahead_1 = [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike \ilo \insa 
-	\jaki \jan \jelo \jo \kala \kalama \kama \kasi \ken \kepeken \kili \kiwen 
-	\ko \kon \kule \kulupu \kute \la \lape \laso \lawa \len \lete \li \lili 
-	\linja \lipu \loje \lon \luka \lukin \lupa \ma \mama \mani \meli \mi \mije 
-	\moku \moli \monsi \mu \mun \musi \mute \nanpa \nasa \nasin \nena \ni \nimi 
-	\noka \oo \olin \ona \open \pakala \pali \palisa \pan \pana \pi \pilin 
-	\pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme \sewi 
-	\sijelo \sike \sin \sina \sinpin \sitelen \sona \soweli \suli \suno \supa 
-	\suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa \uta \utala \walo 
-	\wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ];
-    @cc4_ahead_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]'  by [\a.mark \akesi.mark \ala.sup \alasa.mark 
+	\ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark \en.mark \esun.mark 
+	\ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
+	\jan.mark.small \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark 
+	\kasi.sup \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark \kon.mark 
+	\kule.mark \kulupu.mark \kute.mark \la.mark \lape.sup \laso.mark.small 
+	\lawa.sup \len.mark \lete.mark.small \li.mark \lili.sup \linja.mark \lipu.mark 
+	\loje.mark.small \lon.mark \luka.sup \lukin.sup \lupa.sup \ma.mark \mama.mark 
+	\mani.mark \meli.mark \mi.mark \mije.mark \moku.sup \moli.sup \monsi.sup 
+	\mu.mark \mun.mark \musi.sup \mute.mark \nanpa.sup \nasa.mark.small \nasin.mark 
+	\nena.mark \ni.mark \nimi.mark \noka.mark.small \o.mark \olin.mark \ona.mark 
+	\open.sup \pakala.mark \pali.sup \palisa.mark \pan.mark \pana.mark \pi.mark 
+	\pilin.mark \pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark 
+	\pona.mark \pu.mark \sama.mark \seli.mark.small \selo.mark \seme.mark 
+	\sewi.mark \sijelo.mark \sike.mark \sin.mark.small \sina.mark \sinpin.mark 
+	\sitelen.mark \sona.mark \soweli.mark \suli.mark \suno.sup \supa.mark 
+	\suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.sup 
+	\tomo.sup \tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark 
+	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \leko.mark 
+	\monsuta.mark \namako.mark \oko.sup \pake.mark ];
+    sub [\kala \kili \kiwen \ko \kon \kon.base \lape \len \mama \meli \suno \wawa \sitelen 
+	\sitelen.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -485,194 +493,27 @@ lookup caltContextualAlternateslookup {
 	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
 	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    sub @cc4_match_1' @cc4_ahead_2  by [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike.base \ilo.base \insa 
-	\jaki \jan \jelo \jo \kala \kalama \kama \kasi.base \ken \kepeken \kili \kiwen 
-	\ko \kon.base \kule \kulupu \kute \la \lape \laso \lawa \len \lete \li \lili 
-	\linja \lipu \loje \lon \luka.base \lukin \lupa \ma.base \mama \mani \meli \mi \mije 
-	\moku \moli \monsi \mu \mun \musi \mute \nanpa \nasa \nasin \nena \ni \nimi 
-	\noka \oo \olin \ona \open \pakala \pali \palisa \pan \pana \pi \pilin 
-	\pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme \sewi 
-	\sijelo \sike \sin \sina \sinpin \sitelen.base \sona \soweli \suli \suno \supa.base 
-	\suwi \tan \taso \tawa \telo \tenpo.base \toki \tomo \tu \unpa \uta \utala \walo 
-	\wan \waso \wawa \weka \wile \kin \kipisi \leko \monsuta \namako \oko \pake ] ;
-    @cc5_match_1 = [\ike.base \ilo.base \kasi.base \luka.base \ma.base \supa.base \tenpo.base ];
-    @cc5_match_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc5_back_1 = [\ike.base \ilo.base \kasi.base \luka.base \ma.base \supa.base \tenpo.base ];
-    @cc5_back_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc5_ahead_1 = [\ike.base \ilo.base \kasi.base \luka.base \ma.base \supa.base \tenpo.base ];
-    @cc5_ahead_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    sub @cc5_back_1 @cc5_match_2'  by [\a.mark \akesi.mark \ala.sup \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark.small 
-	\ilo.mark \insa.mark \jaki.mark.small \jan.mark.small \jelo.mark.small \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.sup \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.sup \laso.mark.small \lawa.sup \len.mark 
-	\lete.mark.small \li.mark \lili.sup \linja.mark \lipu.mark \loje.mark.small 
-	\lon.mark \luka.sup \lukin.sup \lupa.sup \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.sup \moli.sup 
-	\monsi.sup \mu.mark \mun.mark \musi.sup \mute.mark \nanpa.sup 
-	\nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark.small 
-	\o.mark \olin.mark \ona.mark \open.sup \pakala.mark \pali.sup 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark.small 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark.small \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.sup \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.sup \tomo.sup 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.sup \pake.mark ] ;
-    @cc6_match_1 = [\kala \kili \kiwen \ko \kon \kon.base \lape \len \mama \meli \suno \wawa \sitelen 
-	\sitelen.base ];
-    @cc6_match_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc6_back_1 = [\kala \kili \kiwen \ko \kon \kon.base \lape \len \mama \meli \suno \wawa \sitelen 
-	\sitelen.base ];
-    @cc6_back_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    @cc6_ahead_1 = [\kala \kili \kiwen \ko \kon \kon.base \lape \len \mama \meli \suno \wawa \sitelen 
-	\sitelen.base ];
-    @cc6_ahead_2 = [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
-	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark \lawa.mark \len.mark 
-	\lete.mark \li.mark \lili.mark \linja.mark \lipu.mark \loje.mark 
-	\lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ];
-    sub @cc6_back_1 @cc6_match_2'  by [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
-	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark.small 
-	\ilo.mark \insa.mark \jaki.mark.small \jan.mark.small \jelo.mark.small \jo.mark 
-	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
-	\kili.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kulupu.mark 
-	\kute.mark \la.mark \lape.mark \laso.mark.small \lawa.mark.small \len.mark 
-	\lete.mark.small \li.mark \lili.mark.small \linja.mark \lipu.mark \loje.mark.small 
-	\lon.mark \luka.mark.small \lukin.mark \lupa.mark \ma.mark \mama.mark 
-	\mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark 
-	\monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark \nanpa.mark 
-	\nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark.small 
-	\o.mark \olin.mark \ona.mark \open.mark \pakala.mark \pali.mark 
-	\palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark.small 
-	\pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark \pu.mark 
-	\sama.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark \sijelo.mark 
-	\sike.mark \sin.mark.small \sina.mark \sinpin.mark \sitelen.mark \sona.mark 
-	\soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
-	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark 
-	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark 
-	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
-	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ] ;
+	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]'  by [\a.mark \akesi.mark \ala.mark \alasa.mark 
+	\ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark \en.mark \esun.mark 
+	\ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
+	\jan.mark.small \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark 
+	\kasi.mark \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark \kon.mark 
+	\kule.mark \kulupu.mark \kute.mark \la.mark \lape.mark \laso.mark.small 
+	\lawa.mark.small \len.mark \lete.mark.small \li.mark \lili.mark.small 
+	\linja.mark \lipu.mark \loje.mark.small \lon.mark \luka.mark.small \lukin.mark 
+	\lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark \mije.mark 
+	\moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark \musi.mark \mute.mark 
+	\nanpa.mark \nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark 
+	\noka.mark.small \o.mark \olin.mark \ona.mark \open.mark \pakala.mark 
+	\pali.mark \palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark 
+	\pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark \pona.mark 
+	\pu.mark \sama.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark 
+	\sijelo.mark \sike.mark \sin.mark.small \sina.mark \sinpin.mark \sitelen.mark 
+	\sona.mark \soweli.mark \suli.mark \suno.mark \supa.mark \suwi.mark \tan.mark 
+	\taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark \tu.mark 
+	\unpa.mark \uta.mark \utala.mark \walo.mark.small \wan.mark \waso.mark 
+	\wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark \leko.mark 
+	\monsuta.mark \namako.mark \oko.mark \pake.mark ];
 } caltContextualAlternateslookup;
 
 feature liga {
@@ -762,7 +603,6 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup0;
 } mark;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\NULL \CR \space \exclam \quotedbl \numbersign \dollar \percent 
 	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
