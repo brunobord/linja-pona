@@ -616,26 +616,18 @@
     <string>uniE_842.glif</string>
     <key>luka.base</key>
     <string>luka.base.glif</string>
-    <key>uniE865</key>
+    <key>mama.mark.small</key>
     <string>uniE_865.glif</string>
-    <key>uniE866</key>
+    <key>meli.mark.small</key>
     <string>uniE_866.glif</string>
-    <key>uniE867</key>
+    <key>mije.mark.small</key>
     <string>uniE_867.glif</string>
-    <key>uniE870</key>
+    <key>meli.base</key>
     <string>uniE_870.glif</string>
-    <key>uniE871</key>
+    <key>sama.mark.small</key>
     <string>uniE_871.glif</string>
-    <key>uniE872</key>
+    <key>unpa.mark.small</key>
     <string>uniE_872.glif</string>
-    <key>uniE875</key>
-    <string>uniE_875.glif</string>
-    <key>uniE876</key>
-    <string>uniE_876.glif</string>
-    <key>uniE877</key>
-    <string>uniE_877.glif</string>
-    <key>uniE878</key>
-    <string>uniE_878.glif</string>
     <key>uniE880</key>
     <string>uniE_880.glif</string>
     <key>uniE881</key>
@@ -646,8 +638,6 @@
     <string>uniE_883.glif</string>
     <key>uniE884</key>
     <string>uniE_884.glif</string>
-    <key>uniE890</key>
-    <string>uniE_890.glif</string>
     <key>uniE893</key>
     <string>uniE_893.glif</string>
     <key>uniE894</key>
@@ -674,9 +664,7 @@
     <string>uniE_921.glif</string>
     <key>uniE922</key>
     <string>uniE_922.glif</string>
-    <key>uniE879</key>
-    <string>uniE_879.glif</string>
-    <key>uniE913</key>
+    <key>sike.base</key>
     <string>uniE_913.glif</string>
     <key>uniE925</key>
     <string>uniE_925.glif</string>
@@ -768,14 +756,6 @@
     <string>nasa.mark.small.glif</string>
     <key>pona.sup</key>
     <string>uniE_843.glif</string>
-    <key>uniE868</key>
-    <string>uniE_868.glif</string>
-    <key>uniE869</key>
-    <string>uniE_869.glif</string>
-    <key>uniE873</key>
-    <string>uniE_873.glif</string>
-    <key>uniE874</key>
-    <string>uniE_874.glif</string>
     <key>sin.mark.small</key>
     <string>sin.mark.small.glif</string>
     <key>monsuta.mark.small</key>
@@ -1098,5 +1078,7 @@
     <string>tenpo.base.glif</string>
     <key>luka.sup</key>
     <string>luka.sup.glif</string>
+    <key>mama.base</key>
+    <string>mama.base.glif</string>
   </dict>
 </plist>

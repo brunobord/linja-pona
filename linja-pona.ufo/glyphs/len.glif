@@ -7,34 +7,24 @@
       <point x="1025" y="1000" type="move" name="Anchor"/>
     </contour>
     <contour>
-      <point x="236" y="1710" type="line"/>
-      <point x="1812" y="1710" type="line"/>
-      <point x="1812" y="563" type="line"/>
-      <point x="1812" y="287" type="line"/>
+      <point x="1812" y="1597" type="line"/>
       <point x="1812" y="-51" type="line"/>
       <point x="1690" y="-51" type="line"/>
-      <point x="1690" y="287" type="line"/>
-      <point x="1085" y="287" type="line"/>
+      <point x="1690" y="399" type="line"/>
+      <point x="1085" y="399" type="line"/>
       <point x="1085" y="-41" type="line"/>
       <point x="963" y="-41" type="line"/>
-      <point x="963" y="287" type="line"/>
-      <point x="358" y="287" type="line"/>
+      <point x="963" y="399" type="line"/>
+      <point x="358" y="399" type="line"/>
       <point x="358" y="-51" type="line"/>
       <point x="236" y="-51" type="line"/>
-      <point x="236" y="287" type="line"/>
-      <point x="236" y="512" type="line"/>
+      <point x="236" y="1597" type="line"/>
     </contour>
     <contour>
-      <point x="1690" y="410" type="line"/>
-      <point x="1690" y="563" type="line"/>
-      <point x="1690" y="1587" type="line"/>
-      <point x="358" y="1587" type="line"/>
-      <point x="358" y="512" type="line"/>
-      <point x="358" y="410" type="line"/>
-      <point x="963" y="410" type="line"/>
-      <point x="963" y="410" type="line"/>
-      <point x="1085" y="410" type="line"/>
-      <point x="1085" y="410" type="line"/>
+      <point x="358" y="1475" type="line"/>
+      <point x="358" y="522" type="line"/>
+      <point x="1690" y="522" type="line"/>
+      <point x="1690" y="1475" type="line"/>
     </contour>
   </outline>
   <lib>
