@@ -2,16 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>.notdef</key>
-  <string>_notdef.glif</string>
   <key>A</key>
   <string>A_.glif</string>
   <key>B</key>
   <string>B_.glif</string>
   <key>C</key>
   <string>C_.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>E</key>
@@ -36,8 +32,6 @@
   <string>M_.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>NULL</key>
-  <string>N_U_L_L_.glif</string>
   <key>O</key>
   <string>O_.glif</string>
   <key>OE</key>
@@ -70,8 +64,6 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
-  <key>_65535</key>
-  <string>_65535.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>a.mark</key>
@@ -88,6 +80,8 @@
   <string>ala.glif</string>
   <key>ala.mark</key>
   <string>ala.mark.glif</string>
+  <key>ala.mark.small</key>
+  <string>ala.mark.small.glif</string>
   <key>ala.sup</key>
   <string>ala.sup.glif</string>
   <key>alasa</key>
@@ -152,8 +146,12 @@
   <string>circumflex.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colon.space</key>
+  <string>colon.space.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
+  <key>comma.space</key>
+  <string>comma.space.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>currency</key>
@@ -196,6 +194,8 @@
   <string>esun.mark.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
+  <key>exclam.space</key>
+  <string>exclam.space.glif</string>
   <key>exclamdown</key>
   <string>exclamdown.glif</string>
   <key>f</key>
@@ -382,6 +382,8 @@
   <string>len.base.glif</string>
   <key>len.mark</key>
   <string>len.mark.glif</string>
+  <key>len.sup</key>
+  <string>len.sup.glif</string>
   <key>less</key>
   <string>less.glif</string>
   <key>lete</key>
@@ -544,6 +546,8 @@
   <string>nanpa.glif</string>
   <key>nanpa.mark</key>
   <string>nanpa.mark.glif</string>
+  <key>nanpa.mark.small</key>
+  <string>nanpa.mark.small.glif</string>
   <key>nanpa.sup</key>
   <string>nanpa.sup.glif</string>
   <key>nasa</key>
@@ -628,6 +632,8 @@
   <string>pakala.glif</string>
   <key>pakala.mark</key>
   <string>pakala.mark.glif</string>
+  <key>pakala.mark.small</key>
+  <string>pakala.mark.small.glif</string>
   <key>pake</key>
   <string>pake.glif</string>
   <key>pake.mark</key>
@@ -662,6 +668,8 @@
   <string>percent.glif</string>
   <key>period</key>
   <string>period.glif</string>
+  <key>period.space</key>
+  <string>period.space.glif</string>
   <key>perthousand</key>
   <string>perthousand.glif</string>
   <key>pi</key>
@@ -714,6 +722,8 @@
   <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
+  <key>question.space</key>
+  <string>question.space.glif</string>
   <key>questiondown</key>
   <string>questiondown.glif</string>
   <key>quotedbl</key>
@@ -756,6 +766,8 @@
   <string>seli.mark.small.glif</string>
   <key>selo</key>
   <string>selo.glif</string>
+  <key>selo.base</key>
+  <string>selo.base.glif</string>
   <key>selo.mark</key>
   <string>selo.mark.glif</string>
   <key>seme</key>
@@ -776,6 +788,8 @@
   <string>sijelo.glif</string>
   <key>sijelo.mark</key>
   <string>sijelo.mark.glif</string>
+  <key>sijelo.mark.small</key>
+  <string>sijelo.mark.small.glif</string>
   <key>sike</key>
   <string>sike.glif</string>
   <key>sike.base</key>
@@ -812,14 +826,18 @@
   <string>sona.glif</string>
   <key>sona.mark</key>
   <string>sona.mark.glif</string>
+  <key>sona.mark.small</key>
+  <string>sona.mark.small.glif</string>
   <key>soweli</key>
   <string>soweli.glif</string>
   <key>soweli.mark</key>
   <string>soweli.mark.glif</string>
+  <key>soweli.sup</key>
+  <string>soweli.sup.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.001</key>
-  <string>space.001.glif</string>
+  <key>space.space</key>
+  <string>space.space.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>suli</key>
@@ -864,18 +882,18 @@
   <string>tawa.mark.small.glif</string>
   <key>telo</key>
   <string>telo.glif</string>
+  <key>telo.base</key>
+  <string>telo.base.glif</string>
   <key>telo.mark</key>
   <string>telo.mark.glif</string>
-  <key>telo_lete</key>
-  <string>telo_lete.glif</string>
-  <key>telokule</key>
-  <string>telokule.glif</string>
   <key>tenpo</key>
   <string>tenpo.glif</string>
   <key>tenpo.base</key>
   <string>tenpo.base.glif</string>
   <key>tenpo.mark</key>
   <string>tenpo.mark.glif</string>
+  <key>tenpo.mark.small</key>
+  <string>tenpo.mark.small.glif</string>
   <key>three</key>
   <string>three.glif</string>
   <key>threequarters</key>
@@ -904,6 +922,10 @@
   <string>tu.glif</string>
   <key>tu.mark</key>
   <string>tu.mark.glif</string>
+  <key>tu.tu</key>
+  <string>tu.tu.glif</string>
+  <key>tu.wan</key>
+  <string>tu.wan.glif</string>
   <key>two</key>
   <string>two.glif</string>
   <key>twosuperior</key>
@@ -912,118 +934,6 @@
   <string>u.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
-  <key>uni0000</key>
-  <string>uni0000.glif</string>
-  <key>uni0001</key>
-  <string>uni0001.glif</string>
-  <key>uniE25</key>
-  <string>uniE_25.glif</string>
-  <key>uniE679</key>
-  <string>uniE_679.glif</string>
-  <key>uniE680</key>
-  <string>uniE_680.glif</string>
-  <key>uniE681</key>
-  <string>uniE_681.glif</string>
-  <key>uniE682</key>
-  <string>uniE_682.glif</string>
-  <key>uniE683</key>
-  <string>uniE_683.glif</string>
-  <key>uniE685</key>
-  <string>uniE_685.glif</string>
-  <key>uniE880</key>
-  <string>uniE_880.glif</string>
-  <key>uniE881</key>
-  <string>uniE_881.glif</string>
-  <key>uniE882</key>
-  <string>uniE_882.glif</string>
-  <key>uniE883</key>
-  <string>uniE_883.glif</string>
-  <key>uniE884</key>
-  <string>uniE_884.glif</string>
-  <key>uniE893</key>
-  <string>uniE_893.glif</string>
-  <key>uniE894</key>
-  <string>uniE_894.glif</string>
-  <key>uniE895</key>
-  <string>uniE_895.glif</string>
-  <key>uniE896</key>
-  <string>uniE_896.glif</string>
-  <key>uniE897</key>
-  <string>uniE_897.glif</string>
-  <key>uniE898</key>
-  <string>uniE_898.glif</string>
-  <key>uniE905</key>
-  <string>uniE_905.glif</string>
-  <key>uniE906</key>
-  <string>uniE_906.glif</string>
-  <key>uniE907</key>
-  <string>uniE_907.glif</string>
-  <key>uniE908</key>
-  <string>uniE_908.glif</string>
-  <key>uniE909</key>
-  <string>uniE_909.glif</string>
-  <key>uniE910</key>
-  <string>uniE_910.glif</string>
-  <key>uniE917</key>
-  <string>uniE_917.glif</string>
-  <key>uniE918</key>
-  <string>uniE_918.glif</string>
-  <key>uniE920</key>
-  <string>uniE_920.glif</string>
-  <key>uniE921</key>
-  <string>uniE_921.glif</string>
-  <key>uniE922</key>
-  <string>uniE_922.glif</string>
-  <key>uniE923</key>
-  <string>uniE_923.glif</string>
-  <key>uniE925</key>
-  <string>uniE_925.glif</string>
-  <key>uniE926</key>
-  <string>uniE_926.glif</string>
-  <key>uniE930</key>
-  <string>uniE_930.glif</string>
-  <key>uniE943</key>
-  <string>uniE_943.glif</string>
-  <key>uniE944</key>
-  <string>uniE_944.glif</string>
-  <key>uniE955</key>
-  <string>uniE_955.glif</string>
-  <key>uniE956</key>
-  <string>uniE_956.glif</string>
-  <key>uniE958</key>
-  <string>uniE_958.glif</string>
-  <key>uniE960</key>
-  <string>uniE_960.glif</string>
-  <key>uniE961</key>
-  <string>uniE_961.glif</string>
-  <key>uniE962</key>
-  <string>uniE_962.glif</string>
-  <key>uniE963</key>
-  <string>uniE_963.glif</string>
-  <key>uniE965</key>
-  <string>uniE_965.glif</string>
-  <key>uniE966</key>
-  <string>uniE_966.glif</string>
-  <key>uniE967</key>
-  <string>uniE_967.glif</string>
-  <key>uniE968</key>
-  <string>uniE_968.glif</string>
-  <key>uniE969</key>
-  <string>uniE_969.glif</string>
-  <key>uniE972</key>
-  <string>uniE_972.glif</string>
-  <key>uniE973</key>
-  <string>uniE_973.glif</string>
-  <key>uniE974</key>
-  <string>uniE_974.glif</string>
-  <key>uniE975</key>
-  <string>uniE_975.glif</string>
-  <key>uniE990</key>
-  <string>uniE_990.glif</string>
-  <key>uniE991</key>
-  <string>uniE_991.glif</string>
-  <key>uniE996</key>
-  <string>uniE_996.glif</string>
   <key>unpa</key>
   <string>unpa.glif</string>
   <key>unpa.mark</key>
@@ -1038,6 +948,8 @@
   <string>utala.glif</string>
   <key>utala.mark</key>
   <string>utala.mark.glif</string>
+  <key>utala.mark.small</key>
+  <string>utala.mark.small.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>w</key>
@@ -1052,6 +964,8 @@
   <string>wan.glif</string>
   <key>wan.mark</key>
   <string>wan.mark.glif</string>
+  <key>wan.tu</key>
+  <string>wan.tu.glif</string>
   <key>waso</key>
   <string>waso.glif</string>
   <key>waso.mark</key>
