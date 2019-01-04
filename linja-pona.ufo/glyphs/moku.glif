@@ -67,6 +67,9 @@
       <point x="740" y="910"/>
       <point x="878" y="840"/>
     </contour>
+    <contour>
+      <point x="1025" y="1220" type="move" name="Anchor"/>
+    </contour>
   </outline>
   <lib>
     <dict>

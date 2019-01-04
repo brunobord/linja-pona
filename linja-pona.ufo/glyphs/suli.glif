@@ -45,6 +45,9 @@
       <point x="1085" y="87"/>
       <point x="1085" y="86" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="1025" y="1365" type="move" name="Anchor"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -326,8 +326,8 @@ lookup caltContextualAlternateslookup {
 	\sona \soweli \suli \suno \supa.base \suwi \tan \taso \tawa \telo.base \tenpo.base 
 	\toki \tomo \tu \unpa \uta \utala \walo \wan \waso \wawa \weka \wile \kin \kipisi \leko 
 	\monsuta \namako \oko \pake ];
-    sub [\ike.base \ilo.base \kalama \kasi.base \luka.base \ma.base \selo.base 
-	\supa.base \tenpo.base ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+    sub [\ike.base \ilo.base \kalama \kasi.base \ken \linja.base \luka.base \ma.base 
+	\moku \open \pali \pona \selo.base \suli \supa.base \tenpo.base \uta ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -369,9 +369,10 @@ lookup caltContextualAlternateslookup {
 	\utala.mark.small \walo.mark.small \wan.mark \waso.mark \wawa.mark \weka.mark 
 	\wile.mark \kin.mark \kipisi.mark \leko.mark \monsuta.mark \namako.mark 
 	\oko.sup \pake.mark ];
-    sub [\kala \kili \kiwen \ko \kon \kon.base \lape \len \len.base \lipu \mama \mama.base 
-	\meli \meli.base \musi \palisa \poka \poki \sike \sike.base \sitelen 
-	\sitelen.base \sona \suno \telo \telo.base \toki \wawa ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
+    sub [\kala \kili \kiwen \ko \kon \kon.base \lape \lawa \len \len.base \lipu \mama 
+	\mama.base \meli \meli.base \mun \musi \palisa \pana \pilin \poka \poki 
+	\sike \sike.base \sitelen \sitelen.base \sona \suno \telo \telo.base 
+	\toki \wawa \wile ] [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark 
 	\anu.mark \awen.mark \e.mark \en.mark \esun.mark \ijo.mark \ike.mark 
 	\ilo.mark \insa.mark \jaki.mark \jan.mark \jelo.mark \jo.mark 
 	\kala.mark \kalama.mark \kama.mark \kasi.mark \ken.mark \kepeken.mark 
@@ -470,7 +471,7 @@ lookup markMarkPositioninglookup0 {
   markClass [\sona.mark.small ] <anchor 1025 660> @Anchor;
   markClass [\suno.mark.small ] <anchor 1025 875> @Anchor;
   markClass [\suwi.mark.small ] <anchor 1025 640> @Anchor;
-  pos base [\anpa ] <anchor 1025 1100> mark @Anchor;
+  pos base [\anpa \wile ] <anchor 1025 1100> mark @Anchor;
   pos base [\ijo \ko \lipu \poki ] <anchor 1025 800> mark @Anchor;
   pos base [\ike ] <anchor 1025 550> mark @Anchor;
   pos base [\ike.base ] <anchor 1025 1400> mark @Anchor;
@@ -479,11 +480,13 @@ lookup markMarkPositioninglookup0 {
   pos base [\kala ] <anchor 1275 750> mark @Anchor;
   pos base [\kalama ] <anchor 1025 1450> mark @Anchor;
   pos base [\kasi.base \ma.base \tenpo.base ] <anchor 1025 1370> mark @Anchor;
+  pos base [\ken ] <anchor 960 1300> mark @Anchor;
   pos base [\kili \musi ] <anchor 1025 600> mark @Anchor;
   pos base [\kiwen ] <anchor 1025 950> mark @Anchor;
   pos base [\kon.base \telo.base ] <anchor 1025 830> mark @Anchor;
   pos base [\lape ] <anchor 1225 825> mark @Anchor;
-  pos base [\len \len.base ] <anchor 1025 1000> mark @Anchor;
+  pos base [\lawa ] <anchor 975 600> mark @Anchor;
+  pos base [\len \len.base \uta ] <anchor 1025 1000> mark @Anchor;
   pos base [\linja.base ] <anchor 1025 1415> mark @Anchor;
   pos base [\luka ] <anchor 1200 600> mark @Anchor;
   pos base [\lupa ] <anchor 1025 900> mark @Anchor;
@@ -493,11 +496,16 @@ lookup markMarkPositioninglookup0 {
   pos base [\meli \meli.base ] <anchor 1025 690> mark @Anchor;
   pos base [\mi ] <anchor 1060 950> mark @Anchor;
   pos base [\mije ] <anchor 1025 875> mark @Anchor;
+  pos base [\moku ] <anchor 1025 1220> mark @Anchor;
+  pos base [\mun ] <anchor 1350 790> mark @Anchor;
   pos base [\nena ] <anchor 1025 650> mark @Anchor;
   pos base [\ona ] <anchor 1125 800> mark @Anchor;
+  pos base [\open ] <anchor 1025 1165> mark @Anchor;
+  pos base [\pali ] <anchor 1025 1190> mark @Anchor;
   pos base [\palisa \pilin ] <anchor 1025 750> mark @Anchor;
+  pos base [\pana ] <anchor 1025 350> mark @Anchor;
   pos base [\poka ] <anchor 885 800> mark @Anchor;
-  pos base [\pona ] <anchor 1025 1365> mark @Anchor;
+  pos base [\pona \suli ] <anchor 1025 1365> mark @Anchor;
   pos base [\selo.base ] <anchor 1025 1300> mark @Anchor;
   pos base [\sike \sike.base ] <anchor 1025 790> mark @Anchor;
   pos base [\sina ] <anchor 1060 650> mark @Anchor;
@@ -523,6 +531,7 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup0;
 } mark;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \B \C \D \E \Euro \F \G \H \I \J \K \L \M \N \O \OE \P \Q \R \S \Scaron \T \U \V 
 	\W \X \Y \Ydieresis \Z \Zcaron \a \acute \ampersand \asciicircum \asciitilde 
