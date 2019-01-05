@@ -826,6 +826,8 @@
   <string>sinpin.glif</string>
   <key>sinpin.mark</key>
   <string>sinpin.mark.glif</string>
+  <key>sinpin.sup</key>
+  <string>sinpin.sup.glif</string>
   <key>sitelen</key>
   <string>sitelen.glif</string>
   <key>sitelen.base</key>

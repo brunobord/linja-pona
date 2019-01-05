@@ -40,7 +40,7 @@
       <point x="1017.41" y="213.414" type="line"/>
     </contour>
     <contour>
-      <point x="950" y="825" type="move" name="_Anchor"/>
+      <point x="900" y="820" type="move" name="_Anchor"/>
     </contour>
   </outline>
 </glyph>
