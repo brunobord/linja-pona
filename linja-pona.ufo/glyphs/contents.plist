@@ -116,6 +116,8 @@
   <string>at.glif</string>
   <key>awen</key>
   <string>awen.glif</string>
+  <key>awen.base</key>
+  <string>awen.base.glif</string>
   <key>awen.mark</key>
   <string>awen.mark.glif</string>
   <key>b</key>
@@ -284,6 +286,8 @@
   <string>kalama.mark.glif</string>
   <key>kama</key>
   <string>kama.glif</string>
+  <key>kama.base</key>
+  <string>kama.base.glif</string>
   <key>kama.mark</key>
   <string>kama.mark.glif</string>
   <key>kasi</key>
@@ -316,8 +320,8 @@
   <string>kipisi.glif</string>
   <key>kipisi.mark</key>
   <string>kipisi.mark.glif</string>
-  <key>kipisi.sup</key>
-  <string>kipisi.sup.glif</string>
+  <key>kipisi.mark.small</key>
+  <string>kipisi.mark.small.glif</string>
   <key>kiwen</key>
   <string>kiwen.glif</string>
   <key>kiwen.mark</key>
@@ -356,8 +360,8 @@
   <string>lape.glif</string>
   <key>lape.mark</key>
   <string>lape.mark.glif</string>
-  <key>lape.sup</key>
-  <string>lape.sup.glif</string>
+  <key>lape.mark.small</key>
+  <string>lape.mark.small.glif</string>
   <key>laso</key>
   <string>laso.glif</string>
   <key>laso.mark</key>
@@ -424,6 +428,8 @@
   <string>loje.mark.small.glif</string>
   <key>lon</key>
   <string>lon.glif</string>
+  <key>lon.base</key>
+  <string>lon.base.glif</string>
   <key>lon.mark</key>
   <string>lon.mark.glif</string>
   <key>luka</key>
@@ -438,10 +444,10 @@
   <string>luka.sup.glif</string>
   <key>lukin</key>
   <string>lukin.glif</string>
+  <key>lukin.base</key>
+  <string>lukin.base.glif</string>
   <key>lukin.mark</key>
   <string>lukin.mark.glif</string>
-  <key>lukin.sup</key>
-  <string>lukin.sup.glif</string>
   <key>lupa</key>
   <string>lupa.glif</string>
   <key>lupa.mark</key>
@@ -572,6 +578,8 @@
   <string>ni.mark.glif</string>
   <key>nimi</key>
   <string>nimi.glif</string>
+  <key>nimi.base</key>
+  <string>nimi.base.glif</string>
   <key>nimi.mark</key>
   <string>nimi.mark.glif</string>
   <key>nine</key>
@@ -674,6 +682,8 @@
   <string>perthousand.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
+  <key>pi.base</key>
+  <string>pi.base.glif</string>
   <key>pi.mark</key>
   <string>pi.mark.glif</string>
   <key>pilin</key>
@@ -750,6 +760,8 @@
   <string>s.glif</string>
   <key>sama</key>
   <string>sama.glif</string>
+  <key>sama.base</key>
+  <string>sama.base.glif</string>
   <key>sama.mark</key>
   <string>sama.mark.glif</string>
   <key>sama.mark.small</key>
@@ -782,10 +794,14 @@
   <string>sewi.glif</string>
   <key>sewi.mark</key>
   <string>sewi.mark.glif</string>
+  <key>sewi.mark.small</key>
+  <string>sewi.mark.small.glif</string>
   <key>sfthyphen</key>
   <string>sfthyphen.glif</string>
   <key>sijelo</key>
   <string>sijelo.glif</string>
+  <key>sijelo.base</key>
+  <string>sijelo.base.glif</string>
   <key>sijelo.mark</key>
   <string>sijelo.mark.glif</string>
   <key>sijelo.mark.small</key>
@@ -876,6 +892,8 @@
   <string>taso.mark.glif</string>
   <key>tawa</key>
   <string>tawa.glif</string>
+  <key>tawa.base</key>
+  <string>tawa.base.glif</string>
   <key>tawa.mark</key>
   <string>tawa.mark.glif</string>
   <key>tawa.mark.small</key>

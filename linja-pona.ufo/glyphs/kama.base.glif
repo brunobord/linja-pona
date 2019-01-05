@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kama.base" format="1">
+  <advance width="2048"/>
+  <unicode hex="F025"/>
+  <outline>
+    <contour>
+      <point x="1416.42" y="-37.6621" type="line"/>
+      <point x="1403.08" y="10.5273" type="line"/>
+      <point x="1400.15" y="21.1289" type="line"/>
+      <point x="1410.75" y="24.0625" type="line"/>
+      <point x="1583.84" y="71.9551" type="line"/>
+      <point x="1035.12" y="714.173" type="line"/>
+      <point x="627.649" y="-79.8506" type="line"/>
+      <point x="613.706" y="-107.022" type="line"/>
+      <point x="610.638" y="-113" type="line"/>
+      <point x="603.919" y="-113" type="line"/>
+      <point x="573.378" y="-113" type="line"/>
+      <point x="306.68" y="-113" type="line"/>
+      <point x="295.68" y="-113" type="line"/>
+      <point x="295.68" y="-102" type="line"/>
+      <point x="295.68" y="-52" type="line"/>
+      <point x="295.68" y="-2" type="line"/>
+      <point x="295.68" y="9" type="line"/>
+      <point x="306.68" y="9" type="line"/>
+      <point x="536.118" y="9" type="line"/>
+      <point x="931.729" y="779.907" type="line"/>
+      <point x="968.122" y="850.826" type="line"/>
+      <point x="1002.17" y="917.181" type="line"/>
+      <point x="1009.66" y="931.778" type="line"/>
+      <point x="1020.32" y="919.304" type="line"/>
+      <point x="1068.77" y="862.601" type="line"/>
+      <point x="1124.61" y="797.243" type="line"/>
+      <point x="1711.57" y="110.271" type="line"/>
+      <point x="1738.85" y="78.3457" type="line"/>
+      <point x="1789.88" y="18.623" type="line"/>
+      <point x="1801.11" y="5.48438" type="line"/>
+      <point x="1784.45" y="0.875977" type="line"/>
+      <point x="1708.74" y="-20.0713" type="line"/>
+      <point x="1657.04" y="-34.375" type="line"/>
+      <point x="1443.29" y="-93.5195" type="line"/>
+      <point x="1432.68" y="-96.4531" type="line"/>
+      <point x="1429.75" y="-85.8516" type="line"/>
+    </contour>
+    <contour>
+      <point x="1025" y="1425" type="move" name="Anchor"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-113</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

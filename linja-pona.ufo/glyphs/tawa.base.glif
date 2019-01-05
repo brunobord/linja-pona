@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tawa.base" format="1">
+  <advance width="2048"/>
+  <unicode hex="F026"/>
+  <outline>
+    <contour>
+      <point x="680.367" y="-37.6621" type="line"/>
+      <point x="693.7" y="10.5273" type="line"/>
+      <point x="696.634" y="21.1289" type="line"/>
+      <point x="686.032" y="24.0625" type="line"/>
+      <point x="512.941" y="71.9551" type="line"/>
+      <point x="1061.66" y="714.173" type="line"/>
+      <point x="1469.14" y="-79.8506" type="line"/>
+      <point x="1483.08" y="-107.022" type="line"/>
+      <point x="1486.15" y="-113" type="line"/>
+      <point x="1492.87" y="-113" type="line"/>
+      <point x="1523.41" y="-113" type="line"/>
+      <point x="1790.11" y="-113" type="line"/>
+      <point x="1801.11" y="-113" type="line"/>
+      <point x="1801.11" y="-102" type="line"/>
+      <point x="1801.11" y="-52" type="line"/>
+      <point x="1801.11" y="-2" type="line"/>
+      <point x="1801.11" y="9" type="line"/>
+      <point x="1790.11" y="9" type="line"/>
+      <point x="1560.67" y="9" type="line"/>
+      <point x="1165.06" y="779.907" type="line"/>
+      <point x="1128.66" y="850.826" type="line"/>
+      <point x="1094.61" y="917.181" type="line"/>
+      <point x="1087.12" y="931.778" type="line"/>
+      <point x="1076.46" y="919.304" type="line"/>
+      <point x="1028.01" y="862.601" type="line"/>
+      <point x="972.172" y="797.243" type="line"/>
+      <point x="385.212" y="110.271" type="line"/>
+      <point x="357.934" y="78.3457" type="line"/>
+      <point x="306.905" y="18.623" type="line"/>
+      <point x="295.68" y="5.48438" type="line"/>
+      <point x="312.335" y="0.875977" type="line"/>
+      <point x="388.044" y="-20.0713" type="line"/>
+      <point x="439.74" y="-34.375" type="line"/>
+      <point x="653.499" y="-93.5195" type="line"/>
+      <point x="664.101" y="-96.4531" type="line"/>
+      <point x="667.034" y="-85.8516" type="line"/>
+    </contour>
+    <contour>
+      <point x="1025" y="1425" type="move" name="Anchor"/>
+    </contour>
+  </outline>
+</glyph>

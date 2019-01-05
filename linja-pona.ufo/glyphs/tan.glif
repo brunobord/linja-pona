@@ -302,6 +302,9 @@
       <point x="437" y="757"/>
       <point x="430" y="741" type="curve"/>
     </contour>
+    <contour>
+      <point x="1210" y="655" type="move" name="Anchor"/>
+    </contour>
   </outline>
   <lib>
     <dict>

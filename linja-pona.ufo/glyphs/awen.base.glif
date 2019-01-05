@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="awen.base" format="1">
+  <advance width="2048"/>
+  <unicode hex="F027"/>
+  <outline>
+    <contour>
+      <point x="258.4" y="-52" type="line"/>
+      <point x="258.4" y="9" type="line"/>
+      <point x="456.778" y="9" type="line"/>
+      <point x="972.165" y="839.719" type="line"/>
+      <point x="1024" y="923.268" type="line"/>
+      <point x="1075.83" y="839.719" type="line"/>
+      <point x="1591.22" y="9" type="line"/>
+      <point x="1789.6" y="9" type="line"/>
+      <point x="1789.6" y="-52" type="line"/>
+      <point x="1789.6" y="-113" type="line"/>
+      <point x="1557.28" y="-113" type="line"/>
+      <point x="1523.34" y="-113" type="line"/>
+      <point x="1505.45" y="-84.1582" type="line"/>
+      <point x="1024" y="691.854" type="line"/>
+      <point x="542.555" y="-84.1582" type="line"/>
+      <point x="524.661" y="-113" type="line"/>
+      <point x="490.72" y="-113" type="line"/>
+      <point x="258.4" y="-113" type="line"/>
+    </contour>
+    <contour>
+      <point x="1025" y="1425" type="move" name="Anchor"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-113</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
