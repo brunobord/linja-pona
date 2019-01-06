@@ -19,12 +19,12 @@
     </contour>
     <contour>
       <point x="1690" y="410" type="line"/>
-      <point x="1690" y="802.333"/>
-      <point x="1690" y="1194.67"/>
+      <point x="1690" y="802"/>
+      <point x="1690" y="1195"/>
       <point x="1690" y="1587" type="curve"/>
       <point x="358" y="1587" type="line"/>
-      <point x="358" y="1194.67"/>
-      <point x="358" y="802.333"/>
+      <point x="358" y="1195"/>
+      <point x="358" y="802"/>
       <point x="358" y="410" type="curve"/>
     </contour>
     <contour>

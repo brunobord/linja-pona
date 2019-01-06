@@ -17,17 +17,17 @@
     </contour>
     <contour>
       <point x="273" y="131" type="curve" smooth="yes"/>
-      <point x="273" y="212.927"/>
-      <point x="341.07" y="281"/>
+      <point x="273" y="213"/>
+      <point x="341" y="281"/>
       <point x="423" y="281" type="curve" smooth="yes"/>
-      <point x="504.927" y="281"/>
-      <point x="573" y="212.93"/>
+      <point x="505" y="281"/>
+      <point x="573" y="213"/>
       <point x="573" y="131" type="curve" smooth="yes"/>
-      <point x="573" y="49.1697"/>
-      <point x="505.462" y="-20"/>
+      <point x="573" y="49"/>
+      <point x="505" y="-20"/>
       <point x="423" y="-20" type="curve" smooth="yes"/>
-      <point x="340.543" y="-20"/>
-      <point x="273" y="49.1644"/>
+      <point x="341" y="-20"/>
+      <point x="273" y="49"/>
     </contour>
   </outline>
   <lib>

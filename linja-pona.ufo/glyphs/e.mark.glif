@@ -4,34 +4,34 @@
   <unicode hex="F110"/>
   <outline>
     <contour>
-      <point x="502.849" y="213.414" type="line"/>
-      <point x="416.122" y="299.145" type="line"/>
-      <point x="589.449" y="472.92"/>
-      <point x="762.777" y="646.694"/>
-      <point x="936.105" y="820.468" type="curve"/>
-      <point x="762.794" y="993.337"/>
-      <point x="589.472" y="1166.19"/>
-      <point x="416.167" y="1339.07" type="curve"/>
-      <point x="445.026" y="1367.93"/>
-      <point x="473.88" y="1396.79"/>
-      <point x="502.743" y="1425.64" type="curve"/>
-      <point x="704.915" y="1223.94"/>
-      <point x="907.136" y="1022.28"/>
-      <point x="1109.26" y="820.529" type="curve"/>
+      <point x="503" y="213" type="line"/>
+      <point x="416" y="299" type="line"/>
+      <point x="589" y="473"/>
+      <point x="763" y="646"/>
+      <point x="936" y="820" type="curve"/>
+      <point x="763" y="993"/>
+      <point x="589" y="1166"/>
+      <point x="416" y="1339" type="curve"/>
+      <point x="445" y="1368"/>
+      <point x="474" y="1397"/>
+      <point x="503" y="1426" type="curve"/>
+      <point x="705" y="1224"/>
+      <point x="907" y="1023"/>
+      <point x="1109" y="821" type="curve"/>
     </contour>
     <contour>
-      <point x="1017.41" y="213.414" type="line"/>
-      <point x="930.682" y="299.145" type="line"/>
-      <point x="1104.01" y="472.919"/>
-      <point x="1277.34" y="646.694"/>
-      <point x="1450.67" y="820.468" type="curve"/>
-      <point x="1277.36" y="993.337"/>
-      <point x="1104.03" y="1166.19"/>
-      <point x="930.728" y="1339.07" type="curve"/>
-      <point x="1017.3" y="1425.64" type="line"/>
-      <point x="1219.48" y="1223.94"/>
-      <point x="1421.7" y="1022.28"/>
-      <point x="1623.82" y="820.529" type="curve"/>
+      <point x="1017" y="213" type="line"/>
+      <point x="931" y="299" type="line"/>
+      <point x="1104" y="473"/>
+      <point x="1278" y="646"/>
+      <point x="1451" y="820" type="curve"/>
+      <point x="1278" y="993"/>
+      <point x="1104" y="1166"/>
+      <point x="931" y="1339" type="curve"/>
+      <point x="1017" y="1426" type="line"/>
+      <point x="1219" y="1224"/>
+      <point x="1422" y="1023"/>
+      <point x="1624" y="821" type="curve"/>
     </contour>
     <contour>
       <point x="900" y="820" type="move" name="_Anchor"/>

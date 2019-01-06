@@ -31,22 +31,22 @@
     </contour>
     <contour>
       <point x="1474" y="866" type="line"/>
-      <point x="1442.89" y="1060.95"/>
-      <point x="1280.14" y="1219.98"/>
+      <point x="1443" y="1061"/>
+      <point x="1280" y="1220"/>
       <point x="1082" y="1246" type="curve"/>
       <point x="1082" y="866" type="line"/>
     </contour>
     <contour>
       <point x="969" y="1246" type="line"/>
-      <point x="768.915" y="1222.23"/>
-      <point x="605.16" y="1061.27"/>
+      <point x="769" y="1222"/>
+      <point x="605" y="1061"/>
       <point x="574" y="866" type="curve"/>
       <point x="969" y="866" type="line"/>
     </contour>
     <contour>
       <point x="570" y="753" type="line"/>
-      <point x="587.953" y="541.553"/>
-      <point x="760.505" y="365.772"/>
+      <point x="588" y="542"/>
+      <point x="761" y="366"/>
       <point x="969" y="341" type="curve"/>
       <point x="969" y="753" type="line"/>
     </contour>

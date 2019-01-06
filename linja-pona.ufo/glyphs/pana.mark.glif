@@ -23,17 +23,17 @@
     </contour>
     <contour>
       <point x="1057" y="996" type="curve" smooth="yes"/>
-      <point x="1310.45" y="996"/>
-      <point x="1493" y="840.094"/>
+      <point x="1310" y="996"/>
+      <point x="1493" y="840"/>
       <point x="1493" y="592" type="curve" smooth="yes"/>
       <point x="1493" y="289" type="line"/>
       <point x="1380" y="289" type="line"/>
       <point x="1380" y="592" type="line" smooth="yes"/>
-      <point x="1380" y="779.22"/>
-      <point x="1248.75" y="883"/>
+      <point x="1380" y="779"/>
+      <point x="1249" y="883"/>
       <point x="1057" y="883" type="curve" smooth="yes"/>
-      <point x="865.84" y="883"/>
-      <point x="734" y="779.267"/>
+      <point x="866" y="883"/>
+      <point x="734" y="779"/>
       <point x="734" y="592" type="curve" smooth="yes"/>
       <point x="734" y="289" type="line"/>
       <point x="680" y="289" type="line"/>
@@ -41,8 +41,8 @@
       <point x="515" y="613" type="line"/>
       <point x="621" y="506" type="line"/>
       <point x="621" y="592" type="line" smooth="yes"/>
-      <point x="621" y="840.042"/>
-      <point x="803.829" y="996"/>
+      <point x="621" y="840"/>
+      <point x="804" y="996"/>
     </contour>
     <contour>
       <point x="1025" y="800" type="move" name="_Anchor"/>

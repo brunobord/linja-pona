@@ -22,17 +22,17 @@
       <point x="1731" y="1597" type="line"/>
       <point x="1853" y="1597" type="line"/>
       <point x="1853" y="778" type="line" smooth="yes"/>
-      <point x="1853" y="527.654"/>
-      <point x="1746.4" y="327.403"/>
+      <point x="1853" y="528"/>
+      <point x="1746" y="327"/>
       <point x="1611" y="192" type="curve" smooth="yes"/>
-      <point x="1474.28" y="57.057"/>
-      <point x="1276.62" y="-51"/>
+      <point x="1474" y="57"/>
+      <point x="1277" y="-51"/>
       <point x="1024" y="-51" type="curve" smooth="yes"/>
-      <point x="771.646" y="-51"/>
-      <point x="573.548" y="57.2251"/>
+      <point x="772" y="-51"/>
+      <point x="574" y="57"/>
       <point x="437" y="192" type="curve" smooth="yes"/>
-      <point x="301.44" y="327.56"/>
-      <point x="195" y="527.408"/>
+      <point x="301" y="328"/>
+      <point x="195" y="527"/>
       <point x="195" y="778" type="curve" smooth="yes"/>
     </contour>
     <contour>
