@@ -314,24 +314,24 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>547</integer>
+            <integer>1375</integer>
             <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1009</integer>
-            <key>width</key>
-            <integer>82</integer>
+            <integer>117</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>389</integer>
+            <integer>1782</integer>
             <key>width</key>
-            <integer>83</integer>
+            <integer>121</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1782</integer>
+            <key>width</key>
+            <integer>121</integer>
           </dict>
         </array>
       </dict>

@@ -32,15 +32,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1445</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1446</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>19</integer>
           </dict>
         </array>
       </dict>

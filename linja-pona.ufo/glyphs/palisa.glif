@@ -83,30 +83,30 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-189</integer>
+            <integer>-113</integer>
             <key>width</key>
-            <integer>21</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1808</integer>
+            <integer>1526</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>751</integer>
+            <integer>461</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1214</integer>
+            <integer>1464</integer>
             <key>width</key>
-            <integer>81</integer>
+            <integer>123</integer>
           </dict>
         </array>
       </dict>

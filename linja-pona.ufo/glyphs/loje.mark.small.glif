@@ -67,18 +67,6 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-61</integer>
-            <key>width</key>
-            <integer>122</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>83</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>307</integer>
             <key>width</key>
             <integer>103</integer>
@@ -94,81 +82,6 @@
             <integer>1097</integer>
             <key>width</key>
             <integer>96</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1209</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1628</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>95</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>269</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>366</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>607</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>652</integer>
-            <key>width</key>
-            <integer>98</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1298</integer>
-            <key>width</key>
-            <integer>98</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1307</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1555</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1649</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1830</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
         </array>
       </dict>

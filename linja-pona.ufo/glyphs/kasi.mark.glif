@@ -5,7 +5,6 @@
   <outline>
     <contour>
       <point x="1563" y="1117" type="curve"/>
-      <point x="1563" y="1117" type="line"/>
       <point x="1608" y="1106" type="line"/>
       <point x="1611" y="1061" type="line"/>
       <point x="1611" y="1058" type="line"/>
@@ -167,7 +166,6 @@
       <point x="440" y="1061" type="line"/>
       <point x="443" y="1106" type="line"/>
       <point x="488" y="1117" type="line"/>
-      <point x="488" y="1117" type="line"/>
       <point x="525" y="1124"/>
       <point x="563" y="1130"/>
       <point x="602" y="1133" type="curve" smooth="yes"/>
@@ -231,15 +229,8 @@
     <contour>
       <point x="1488" y="1052" type="line"/>
       <point x="1488" y="1053" type="line"/>
-      <point x="1488" y="1052" type="line"/>
-      <point x="1488" y="1052" type="line"/>
-      <point x="1488" y="1052" type="line"/>
     </contour>
     <contour>
-      <point x="563" y="1052" type="line"/>
-      <point x="563" y="1052" type="line"/>
-      <point x="563" y="1052" type="line"/>
-      <point x="563" y="1052" type="line"/>
       <point x="563" y="1052" type="line"/>
     </contour>
     <contour>
@@ -428,12 +419,6 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-113</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>740</integer>
             <key>width</key>
             <integer>116</integer>
@@ -444,30 +429,24 @@
             <key>width</key>
             <integer>119</integer>
           </dict>
-          <dict>
-            <key>position</key>
-            <integer>1577</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>118</integer>
+            <integer>440</integer>
+            <key>width</key>
+            <integer>126</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>963</integer>
             <key>width</key>
             <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>965</integer>
-            <key>width</key>
-            <integer>118</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1807</integer>
+            <integer>1488</integer>
             <key>width</key>
             <integer>123</integer>
           </dict>

@@ -222,15 +222,6 @@
       <point x="1616" y="1008" type="line"/>
     </contour>
     <contour>
-      <point x="1504" y="1003" type="curve"/>
-      <point x="1504" y="1002" type="line"/>
-      <point x="1504" y="1003"/>
-      <point x="1504" y="1003"/>
-    </contour>
-    <contour>
-      <point x="544" y="1002" type="line"/>
-    </contour>
-    <contour>
       <point x="915" y="835" type="curve" smooth="yes"/>
       <point x="917" y="835"/>
       <point x="918" y="835"/>
@@ -253,8 +244,11 @@
       <point x="722" y="964"/>
       <point x="707" y="967"/>
       <point x="691" y="968" type="curve" smooth="yes"/>
-      <point x="660" y="971"/>
-      <point x="628" y="970"/>
+      <point x="678.015" y="969.257"/>
+      <point x="664.855" y="969.811"/>
+      <point x="651.593" y="969.811" type="curve" smooth="yes"/>
+      <point x="633.193" y="969.811"/>
+      <point x="614.596" y="968.743"/>
       <point x="596" y="967" type="curve" smooth="yes"/>
       <point x="580" y="965"/>
       <point x="564" y="963"/>
@@ -428,9 +422,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>968</integer>
+            <integer>970</integer>
             <key>width</key>
-            <integer>109</integer>
+            <integer>107</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -443,9 +437,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1504</integer>
+            <integer>1500</integer>
             <key>width</key>
-            <integer>113</integer>
+            <integer>116</integer>
           </dict>
         </array>
       </dict>

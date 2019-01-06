@@ -4,16 +4,18 @@
   <unicode hex="F064"/>
   <outline>
     <contour>
-      <point x="1333" y="1176" type="line"/>
-      <point x="650" y="1592" type="line"/>
-      <point x="714" y="1697" type="line"/>
-      <point x="1397" y="1281" type="line"/>
-    </contour>
-    <contour>
       <point x="714" y="1176" type="line"/>
       <point x="650" y="1281" type="line"/>
+      <point x="905.304" y="1436.5" type="line"/>
+      <point x="650" y="1592" type="line"/>
+      <point x="714" y="1697" type="line"/>
+      <point x="1023.5" y="1508.49" type="line"/>
       <point x="1333" y="1697" type="line"/>
       <point x="1397" y="1592" type="line"/>
+      <point x="1141.7" y="1436.5" type="line"/>
+      <point x="1397" y="1281" type="line"/>
+      <point x="1333" y="1176" type="line"/>
+      <point x="1023.5" y="1364.51" type="line"/>
     </contour>
     <contour>
       <point x="1025" y="1430" type="move" name="_Anchor"/>
@@ -27,24 +29,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>195</integer>
+            <integer>1176</integer>
             <key>width</key>
-            <integer>122</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>92</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1832</integer>
-            <key>width</key>
-            <integer>123</integer>
+            <integer>521</integer>
           </dict>
         </array>
       </dict>

@@ -99,21 +99,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-246</integer>
+            <integer>-25</integer>
             <key>width</key>
-            <integer>401</integer>
+            <integer>180</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>1320</integer>
             <key>width</key>
-            <integer>169</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1320</integer>
-            <key>width</key>
-            <integer>322</integer>
+            <integer>162</integer>
           </dict>
         </array>
         <key>vhints</key>

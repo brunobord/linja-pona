@@ -64,15 +64,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>80</integer>
+            <integer>214</integer>
             <key>width</key>
-            <integer>337</integer>
+            <integer>235</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>227</integer>
             <key>width</key>
-            <integer>222</integer>
+            <integer>190</integer>
           </dict>
         </array>
       </dict>

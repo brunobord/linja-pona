@@ -48,30 +48,30 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>460</integer>
+            <integer>246</integer>
             <key>width</key>
-            <integer>81</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1097</integer>
+            <integer>1167</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>28</integer>
+            <integer>118</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1939</integer>
+            <integer>1807</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
         </array>
       </dict>

@@ -26,24 +26,24 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>166</integer>
+            <integer>-56</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>112</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1390</integer>
+            <integer>1428</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>113</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>983</integer>
+            <integer>968</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>112</integer>
           </dict>
         </array>
       </dict>

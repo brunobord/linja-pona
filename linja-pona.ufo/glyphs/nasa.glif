@@ -44,8 +44,11 @@
       <point x="1384" y="1700"/>
       <point x="1618" y="1651"/>
       <point x="1817" y="1546" type="curve" smooth="yes"/>
-      <point x="1847" y="1530"/>
-      <point x="1859" y="1493"/>
+      <point x="1837.94" y="1534.83"/>
+      <point x="1850.11" y="1513.43"/>
+      <point x="1850.11" y="1491.32" type="curve" smooth="yes"/>
+      <point x="1850.11" y="1481.76"/>
+      <point x="1847.83" y="1472.06"/>
       <point x="1843" y="1463" type="curve" smooth="yes"/>
       <point x="1832" y="1442"/>
       <point x="1811" y="1430"/>

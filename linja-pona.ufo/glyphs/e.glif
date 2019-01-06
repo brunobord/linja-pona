@@ -92,6 +92,12 @@
             <key>width</key>
             <integer>200</integer>
           </dict>
+          <dict>
+            <key>position</key>
+            <integer>863</integer>
+            <key>width</key>
+            <integer>189</integer>
+          </dict>
         </array>
       </dict>
     </dict>

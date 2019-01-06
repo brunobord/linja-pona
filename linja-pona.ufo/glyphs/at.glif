@@ -124,7 +124,13 @@
             <key>position</key>
             <integer>246</integer>
             <key>width</key>
-            <integer>114</integer>
+            <integer>97</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>254</integer>
+            <key>width</key>
+            <integer>106</integer>
           </dict>
           <dict>
             <key>position</key>

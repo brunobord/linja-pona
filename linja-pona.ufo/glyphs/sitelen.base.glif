@@ -75,12 +75,6 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>655</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1075</integer>
             <key>width</key>
             <integer>256</integer>
@@ -109,6 +103,18 @@
           <dict>
             <key>position</key>
             <integer>512</integer>
+            <key>width</key>
+            <integer>256</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>896</integer>
+            <key>width</key>
+            <integer>256</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1280</integer>
             <key>width</key>
             <integer>256</integer>
           </dict>

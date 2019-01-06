@@ -8,8 +8,11 @@
       <point x="581" y="-61"/>
       <point x="428" y="-34"/>
       <point x="285" y="20" type="curve" smooth="yes"/>
-      <point x="260" y="30"/>
-      <point x="244" y="55"/>
+      <point x="261.409" y="29.4365"/>
+      <point x="245.832" y="52.2302"/>
+      <point x="245.832" y="77.4571" type="curve" smooth="yes"/>
+      <point x="245.832" y="78.9635"/>
+      <point x="245.887" y="80.4786"/>
       <point x="246" y="82" type="curve" smooth="yes"/>
       <point x="248" y="109"/>
       <point x="267" y="132"/>
@@ -35,8 +38,11 @@
       <point x="267" y="1456"/>
       <point x="248" y="1478"/>
       <point x="246" y="1505" type="curve" smooth="yes"/>
-      <point x="244" y="1532"/>
-      <point x="260" y="1557"/>
+      <point x="245.887" y="1506.52"/>
+      <point x="245.832" y="1508.04"/>
+      <point x="245.832" y="1509.54" type="curve" smooth="yes"/>
+      <point x="245.832" y="1534.77"/>
+      <point x="261.409" y="1557.56"/>
       <point x="285" y="1567" type="curve" smooth="yes"/>
       <point x="428" y="1621"/>
       <point x="581" y="1649"/>
@@ -115,30 +121,30 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-17</integer>
+            <integer>-61</integer>
             <key>width</key>
-            <integer>87</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1568</integer>
+            <integer>1526</integer>
             <key>width</key>
-            <integer>87</integer>
+            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>1111</integer>
+            <integer>921</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1502</integer>
+            <integer>1680</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>122</integer>
           </dict>
         </array>
       </dict>

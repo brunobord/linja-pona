@@ -99,6 +99,12 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>1348</integer>
+            <key>width</key>
+            <integer>118</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>1531</integer>
             <key>width</key>
             <integer>113</integer>

@@ -33,60 +33,48 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-113</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1188</integer>
             <key>width</key>
             <integer>107</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1577</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>118</integer>
+            <integer>526</integer>
             <key>width</key>
-            <integer>123</integer>
+            <integer>111</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>534</integer>
+            <integer>543</integer>
             <key>width</key>
-            <integer>102</integer>
+            <integer>94</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>769</integer>
+            <integer>765</integer>
             <key>width</key>
-            <integer>109</integer>
+            <integer>111</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1169</integer>
+            <integer>1172</integer>
             <key>width</key>
-            <integer>109</integer>
+            <integer>111</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1409</integer>
+            <integer>1407</integer>
             <key>width</key>
-            <integer>102</integer>
+            <integer>94</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1807</integer>
+            <integer>1411</integer>
             <key>width</key>
-            <integer>123</integer>
+            <integer>111</integer>
           </dict>
         </array>
       </dict>

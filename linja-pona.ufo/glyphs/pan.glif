@@ -84,13 +84,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>124</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1496</integer>
+            <integer>1059</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>

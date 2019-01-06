@@ -66,54 +66,54 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-131</integer>
+            <integer>-61</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>731</integer>
+            <integer>666</integer>
             <key>width</key>
-            <integer>126</integer>
+            <integer>256</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1687</integer>
+            <integer>1475</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>122</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>261</integer>
+            <integer>297</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>565</integer>
+            <integer>512</integer>
             <key>width</key>
-            <integer>126</integer>
+            <integer>256</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>961</integer>
+            <integer>896</integer>
             <key>width</key>
-            <integer>126</integer>
+            <integer>256</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1357</integer>
+            <integer>1280</integer>
             <key>width</key>
-            <integer>126</integer>
+            <integer>256</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1705</integer>
+            <integer>1628</integer>
             <key>width</key>
-            <integer>81</integer>
+            <integer>123</integer>
           </dict>
         </array>
       </dict>

@@ -36,21 +36,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-15</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-13</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1634</integer>
-            <key>width</key>
-            <integer>20</integer>
           </dict>
         </array>
       </dict>

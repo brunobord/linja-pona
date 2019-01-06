@@ -12,8 +12,11 @@
       <point x="674" y="431"/>
       <point x="620" y="479"/>
       <point x="590" y="539" type="curve" smooth="yes"/>
-      <point x="542" y="633"/>
-      <point x="553" y="752"/>
+      <point x="570.338" y="577.505"/>
+      <point x="560.576" y="620.204"/>
+      <point x="560.576" y="666.892" type="curve" smooth="yes"/>
+      <point x="560.576" y="734.182"/>
+      <point x="580.854" y="809.757"/>
       <point x="621" y="893" type="curve" smooth="yes"/>
       <point x="642" y="936"/>
       <point x="663" y="977"/>
@@ -52,8 +55,11 @@
       <point x="1496" y="1028"/>
       <point x="1515" y="985"/>
       <point x="1516" y="937" type="curve" smooth="yes"/>
-      <point x="1520" y="916"/>
-      <point x="1525" y="855"/>
+      <point x="1517.18" y="930.821"/>
+      <point x="1518.44" y="921.179"/>
+      <point x="1518.44" y="909.119" type="curve" smooth="yes"/>
+      <point x="1518.44" y="880.19"/>
+      <point x="1511.17" y="837.346"/>
       <point x="1478" y="795" type="curve" smooth="yes"/>
       <point x="1474" y="789"/>
       <point x="1469" y="784"/>
@@ -70,8 +76,11 @@
       <point x="1376" y="350"/>
       <point x="1301" y="324"/>
       <point x="1207" y="316" type="curve" smooth="yes"/>
-      <point x="1115" y="309"/>
-      <point x="1030" y="321"/>
+      <point x="1187.42" y="314.51"/>
+      <point x="1168.16" y="313.881"/>
+      <point x="1149.56" y="313.881" type="curve" smooth="yes"/>
+      <point x="1080.77" y="313.881"/>
+      <point x="1021.06" y="322.49"/>
       <point x="988" y="328" type="curve"/>
       <point x="982" y="330" type="line"/>
       <point x="947" y="336"/>
@@ -86,8 +95,11 @@
       <point x="981" y="434"/>
       <point x="1001" y="430" type="curve" smooth="yes"/>
       <point x="1007" y="429" type="line" smooth="yes"/>
-      <point x="1121" y="408"/>
-      <point x="1283" y="407"/>
+      <point x="1048.82" y="421.296"/>
+      <point x="1097.1" y="416.284"/>
+      <point x="1145.43" y="416.284" type="curve" smooth="yes"/>
+      <point x="1228.83" y="416.284"/>
+      <point x="1312.35" y="431.213"/>
       <point x="1363" y="473" type="curve" smooth="yes"/>
       <point x="1397" y="502"/>
       <point x="1414" y="541"/>
@@ -109,8 +121,11 @@
       <point x="798" y="1014"/>
       <point x="757" y="938"/>
       <point x="713" y="848" type="curve" smooth="yes"/>
-      <point x="660" y="737"/>
-      <point x="649" y="649"/>
+      <point x="679.807" y="778.483"/>
+      <point x="663.088" y="717.986"/>
+      <point x="663.088" y="667.003" type="curve" smooth="yes"/>
+      <point x="663.088" y="636.58"/>
+      <point x="669.041" y="609.544"/>
       <point x="681" y="586" type="curve" smooth="yes"/>
       <point x="708" y="532"/>
       <point x="764" y="498"/>
@@ -187,8 +202,11 @@
       <point x="1362" y="886"/>
       <point x="1380" y="872"/>
       <point x="1397" y="857" type="curve"/>
-      <point x="1420" y="887"/>
-      <point x="1416" y="915"/>
+      <point x="1414.06" y="879.258"/>
+      <point x="1416.27" y="900.415"/>
+      <point x="1416.27" y="911.895" type="curve" smooth="yes"/>
+      <point x="1416.27" y="915.888"/>
+      <point x="1416" y="918.71"/>
       <point x="1416" y="920" type="curve" smooth="yes"/>
       <point x="1414" y="926" type="line"/>
       <point x="1414" y="932" type="line" smooth="yes"/>
@@ -239,21 +257,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-61</integer>
+            <integer>314</integer>
             <key>width</key>
-            <integer>122</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>83</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>316</integer>
-            <key>width</key>
-            <integer>100</integer>
+            <integer>102</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -269,54 +275,18 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1209</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1280</integer>
             <key>width</key>
             <integer>102</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1628</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>95</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>269</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>366</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>561</integer>
             <key>width</key>
-            <integer>102</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>607</integer>
-            <key>width</key>
-            <integer>123</integer>
+            <integer>103</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -326,39 +296,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1175</integer>
-            <key>width</key>
-            <integer>103</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1307</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1414</integer>
             <key>width</key>
             <integer>103</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1555</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1649</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1830</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
         </array>
       </dict>

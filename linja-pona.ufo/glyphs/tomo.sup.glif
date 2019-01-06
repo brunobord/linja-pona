@@ -29,24 +29,6 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-113</integer>
-            <key>width</key>
-            <integer>125</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>336</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>756</integer>
-            <key>width</key>
-            <integer>125</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>948</integer>
             <key>width</key>
             <integer>105</integer>
@@ -59,12 +41,6 @@
             <integer>540</integer>
             <key>width</key>
             <integer>111</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>964</integer>
-            <key>width</key>
-            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>

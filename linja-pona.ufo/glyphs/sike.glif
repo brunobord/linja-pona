@@ -131,54 +131,54 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>72</integer>
+            <integer>-113</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>319</integer>
+            <integer>348</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1237</integer>
+            <integer>1116</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1484</integer>
+            <integer>1577</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>277</integer>
+            <integer>118</integer>
             <key>width</key>
-            <integer>81</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>529</integer>
+            <integer>579</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1447</integer>
+            <integer>1347</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1690</integer>
+            <integer>1807</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
         </array>
       </dict>

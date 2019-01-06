@@ -45,7 +45,6 @@
       <point x="1823" y="598"/>
       <point x="1823" y="585"/>
       <point x="1823" y="574" type="curve"/>
-      <point x="1823" y="574" type="line"/>
       <point x="1823" y="548"/>
       <point x="1820" y="522"/>
       <point x="1814" y="498" type="curve" smooth="yes"/>
@@ -88,9 +87,7 @@
       <point x="1061" y="-103" type="line"/>
       <point x="1053" y="-106" type="line"/>
       <point x="1045" y="-109" type="line"/>
-      <point x="1045" y="-109" type="line"/>
       <point x="1024" y="-117" type="line"/>
-      <point x="1003" y="-109" type="line"/>
       <point x="1003" y="-109" type="line"/>
       <point x="995" y="-106" type="line"/>
       <point x="987" y="-103" type="line"/>
@@ -321,7 +318,6 @@
       <point x="1070" y="652" type="curve" smooth="yes"/>
       <point x="1022" y="585" type="line"/>
       <point x="978" y="652" type="line"/>
-      <point x="978" y="652" type="line"/>
       <point x="950" y="689"/>
       <point x="928" y="727"/>
       <point x="904" y="760" type="curve" smooth="yes"/>
@@ -344,7 +340,6 @@
       <point x="639" y="890"/>
       <point x="636" y="890" type="curve" smooth="yes"/>
       <point x="632" y="890" type="line"/>
-      <point x="631" y="890" type="line"/>
       <point x="631" y="890" type="line"/>
       <point x="629" y="890" type="line"/>
       <point x="625" y="890" type="line"/>
@@ -500,7 +495,6 @@
       <point x="1106" y="1339"/>
       <point x="1089" y="1314"/>
       <point x="1070" y="1288" type="curve"/>
-      <point x="1070" y="1288" type="line"/>
       <point x="1026" y="1221" type="line"/>
       <point x="978" y="1288" type="line" smooth="yes"/>
       <point x="959" y="1313"/>
@@ -552,11 +546,6 @@
       <point x="341" y="1219"/>
       <point x="341" y="1216" type="curve" smooth="yes"/>
       <point x="341" y="1211" type="line"/>
-      <point x="341" y="1210" type="line"/>
-      <point x="341" y="1210" type="line"/>
-      <point x="341" y="1210"/>
-      <point x="341" y="1210"/>
-      <point x="341" y="1210" type="curve"/>
       <point x="341" y="1210" type="line"/>
       <point x="341" y="1207" type="line"/>
       <point x="341" y="1201" type="line"/>
@@ -697,21 +686,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>222</integer>
-            <key>width</key>
-            <integer>119</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1707</integer>
             <key>width</key>
             <integer>119</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1711</integer>
-            <key>width</key>
-            <integer>112</integer>
           </dict>
         </array>
       </dict>

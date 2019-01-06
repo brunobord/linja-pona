@@ -94,24 +94,30 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1684</integer>
+            <integer>-113</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1685</integer>
+            <integer>1269</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>123</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>623</integer>
+            <integer>297</integer>
             <key>width</key>
-            <integer>83</integer>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1699</integer>
+            <key>width</key>
+            <integer>122</integer>
           </dict>
         </array>
       </dict>

@@ -4,45 +4,61 @@
   <unicode hex="F026"/>
   <outline>
     <contour>
-      <point x="633.246" y="-37.6621" type="line"/>
-      <point x="646.579" y="10.5273" type="line"/>
-      <point x="649.513" y="21.1289" type="line"/>
-      <point x="638.911" y="24.0625" type="line"/>
-      <point x="465.82" y="71.9551" type="line"/>
-      <point x="1014.54" y="714.173" type="line"/>
-      <point x="1422.01" y="-79.8506" type="line"/>
-      <point x="1435.96" y="-107.022" type="line"/>
-      <point x="1439.03" y="-113" type="line"/>
-      <point x="1445.75" y="-113" type="line"/>
-      <point x="1476.29" y="-113" type="line"/>
-      <point x="1742.98" y="-113" type="line"/>
-      <point x="1753.98" y="-113" type="line"/>
-      <point x="1753.98" y="-102" type="line"/>
-      <point x="1753.98" y="-52" type="line"/>
-      <point x="1753.98" y="-2" type="line"/>
-      <point x="1753.98" y="9" type="line"/>
-      <point x="1742.98" y="9" type="line"/>
-      <point x="1513.55" y="9" type="line"/>
-      <point x="1117.93" y="779.907" type="line"/>
-      <point x="1081.54" y="850.826" type="line"/>
-      <point x="1047.49" y="917.181" type="line"/>
-      <point x="1040" y="931.778" type="line"/>
-      <point x="1029.34" y="919.304" type="line"/>
-      <point x="980.893" y="862.601" type="line"/>
-      <point x="925.051" y="797.243" type="line"/>
-      <point x="338.091" y="110.271" type="line"/>
-      <point x="310.812" y="78.3457" type="line"/>
-      <point x="259.784" y="18.623" type="line"/>
-      <point x="248.559" y="5.48438" type="line"/>
-      <point x="265.214" y="0.875977" type="line"/>
-      <point x="340.923" y="-20.0713" type="line"/>
-      <point x="392.619" y="-34.375" type="line"/>
-      <point x="606.378" y="-93.5195" type="line"/>
-      <point x="616.979" y="-96.4531" type="line"/>
-      <point x="619.913" y="-85.8516" type="line"/>
+      <point x="633" y="-38" type="line"/>
+      <point x="620" y="-86" type="line"/>
+      <point x="617" y="-96" type="line"/>
+      <point x="606" y="-94" type="line"/>
+      <point x="393" y="-34" type="line"/>
+      <point x="341" y="-20" type="line"/>
+      <point x="265" y="1" type="line"/>
+      <point x="249" y="5" type="line"/>
+      <point x="260" y="19" type="line"/>
+      <point x="311" y="78" type="line"/>
+      <point x="338" y="110" type="line"/>
+      <point x="925" y="797" type="line"/>
+      <point x="981" y="863" type="line"/>
+      <point x="1029" y="919" type="line"/>
+      <point x="1040" y="932" type="line"/>
+      <point x="1047" y="917" type="line"/>
+      <point x="1082" y="851" type="line"/>
+      <point x="1118" y="780" type="line"/>
+      <point x="1514" y="9" type="line"/>
+      <point x="1743" y="9" type="line"/>
+      <point x="1754" y="9" type="line"/>
+      <point x="1754" y="-2" type="line"/>
+      <point x="1754" y="-52" type="line"/>
+      <point x="1754" y="-102" type="line"/>
+      <point x="1754" y="-113" type="line"/>
+      <point x="1743" y="-113" type="line"/>
+      <point x="1476" y="-113" type="line"/>
+      <point x="1446" y="-113" type="line"/>
+      <point x="1439" y="-113" type="line"/>
+      <point x="1436" y="-107" type="line"/>
+      <point x="1422" y="-80" type="line"/>
+      <point x="1015" y="714" type="line"/>
+      <point x="466" y="72" type="line"/>
+      <point x="639" y="24" type="line"/>
+      <point x="650" y="21" type="line"/>
+      <point x="647" y="11" type="line"/>
     </contour>
     <contour>
       <point x="1025" y="1425" type="move" name="Anchor"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-113</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -56,19 +56,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>287</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1376</integer>
-            <key>width</key>
-            <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1587</integer>
             <key>width</key>
             <integer>123</integer>
           </dict>
@@ -77,33 +65,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>236</integer>
-            <key>width</key>
-            <integer>122</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>682</integer>
             <key>width</key>
             <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>963</integer>
-            <key>width</key>
-            <integer>122</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>1362</integer>
             <key>width</key>
             <integer>123</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1690</integer>
-            <key>width</key>
-            <integer>122</integer>
           </dict>
         </array>
       </dict>

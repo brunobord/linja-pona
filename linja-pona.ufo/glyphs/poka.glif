@@ -39,36 +39,36 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>456</integer>
+            <integer>92</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>769</integer>
+            <integer>691</integer>
             <key>width</key>
-            <integer>126</integer>
+            <integer>256</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>169</integer>
+            <integer>184</integer>
             <key>width</key>
-            <integer>81</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1555</integer>
+            <integer>1464</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>123</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1754</integer>
+            <integer>1700</integer>
             <key>width</key>
-            <integer>125</integer>
+            <integer>256</integer>
           </dict>
         </array>
       </dict>
