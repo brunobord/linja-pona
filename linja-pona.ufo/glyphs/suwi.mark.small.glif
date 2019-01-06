@@ -4,11 +4,6 @@
   <unicode hex="E813"/>
   <outline>
     <contour>
-      <point x="1024" y="1126" type="curve"/>
-      <point x="1024" y="1126"/>
-      <point x="1024" y="1126"/>
-    </contour>
-    <contour>
       <point x="654" y="1051" type="line"/>
       <point x="938" y="592" type="line"/>
       <point x="829" y="555" type="line"/>

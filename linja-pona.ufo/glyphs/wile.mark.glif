@@ -4,27 +4,18 @@
   <unicode hex="F220"/>
   <outline>
     <contour>
+      <point x="1556.71" y="756.21" type="curve" smooth="yes"/>
+      <point x="1556.71" y="544.024"/>
+      <point x="1449.46" y="369"/>
       <point x="1241" y="369" type="curve" smooth="yes"/>
-      <point x="1176" y="369"/>
-      <point x="1119" y="392"/>
-      <point x="1075" y="438" type="curve" smooth="yes"/>
-      <point x="1055" y="458"/>
-      <point x="1038" y="482"/>
+      <point x="1139.26" y="369"/>
+      <point x="1064.08" y="431.696"/>
       <point x="1024" y="509" type="curve"/>
-      <point x="1010" y="482"/>
-      <point x="993" y="458"/>
-      <point x="973" y="438" type="curve" smooth="yes"/>
-      <point x="929" y="392"/>
-      <point x="872" y="369"/>
+      <point x="983.904" y="431.671"/>
+      <point x="908.786" y="369"/>
       <point x="807" y="369" type="curve" smooth="yes"/>
-      <point x="742" y="369"/>
-      <point x="684" y="386"/>
-      <point x="635" y="422" type="curve" smooth="yes"/>
-      <point x="590" y="454"/>
-      <point x="555" y="500"/>
-      <point x="530" y="557" type="curve" smooth="yes"/>
-      <point x="504.194" y="615.71"/>
-      <point x="491.29" y="683.993"/>
+      <point x="598.55" y="369"/>
+      <point x="491.29" y="544.029"/>
       <point x="491.29" y="756.21" type="curve" smooth="yes"/>
       <point x="491.29" y="795.929"/>
       <point x="495.194" y="836.839"/>
@@ -85,15 +76,6 @@
       <point x="1545" y="878" type="curve" smooth="yes"/>
       <point x="1552.81" y="836.839"/>
       <point x="1556.71" y="795.929"/>
-      <point x="1556.71" y="756.21" type="curve" smooth="yes"/>
-      <point x="1556.71" y="683.993"/>
-      <point x="1543.81" y="615.71"/>
-      <point x="1518" y="557" type="curve" smooth="yes"/>
-      <point x="1493" y="500"/>
-      <point x="1458" y="454"/>
-      <point x="1413" y="422" type="curve" smooth="yes"/>
-      <point x="1364" y="386"/>
-      <point x="1306" y="369"/>
     </contour>
     <contour>
       <point x="1025" y="800" type="move" name="_Anchor"/>

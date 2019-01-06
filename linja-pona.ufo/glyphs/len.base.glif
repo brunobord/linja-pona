@@ -6,8 +6,6 @@
     <contour>
       <point x="236" y="1710" type="line"/>
       <point x="1812" y="1710" type="line"/>
-      <point x="1812" y="563" type="line"/>
-      <point x="1812" y="287" type="line"/>
       <point x="1812" y="-51" type="line"/>
       <point x="1690" y="-51" type="line"/>
       <point x="1690" y="287" type="line"/>
@@ -18,18 +16,16 @@
       <point x="358" y="287" type="line"/>
       <point x="358" y="-51" type="line"/>
       <point x="236" y="-51" type="line"/>
-      <point x="236" y="287" type="line"/>
-      <point x="236" y="512" type="line"/>
     </contour>
     <contour>
       <point x="1690" y="410" type="line"/>
-      <point x="1690" y="563" type="line"/>
-      <point x="1690" y="1587" type="line"/>
+      <point x="1690" y="802.333"/>
+      <point x="1690" y="1194.67"/>
+      <point x="1690" y="1587" type="curve"/>
       <point x="358" y="1587" type="line"/>
-      <point x="358" y="512" type="line"/>
-      <point x="358" y="410" type="line"/>
-      <point x="963" y="410" type="line"/>
-      <point x="1085" y="410" type="line"/>
+      <point x="358" y="1194.67"/>
+      <point x="358" y="802.333"/>
+      <point x="358" y="410" type="curve"/>
     </contour>
     <contour>
       <point x="1025" y="1000" type="move" name="Anchor"/>

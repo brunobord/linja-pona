@@ -4,24 +4,32 @@
   <unicode hex="F027"/>
   <outline>
     <contour>
-      <point x="258.4" y="-52" type="line"/>
-      <point x="258.4" y="9" type="line"/>
+      <point x="258.4" y="-113" type="curve"/>
+      <point x="258.4" y="-72.3333"/>
+      <point x="258.4" y="-31.6667"/>
+      <point x="258.4" y="9" type="curve"/>
       <point x="456.778" y="9" type="line"/>
-      <point x="972.165" y="839.719" type="line"/>
-      <point x="1024" y="923.268" type="line"/>
-      <point x="1075.83" y="839.719" type="line"/>
-      <point x="1591.22" y="9" type="line"/>
+      <point x="645.852" y="313.756"/>
+      <point x="834.926" y="618.512"/>
+      <point x="1024" y="923.268" type="curve"/>
+      <point x="1213.07" y="618.506"/>
+      <point x="1402.15" y="313.757"/>
+      <point x="1591.22" y="9" type="curve"/>
       <point x="1789.6" y="9" type="line"/>
-      <point x="1789.6" y="-52" type="line"/>
-      <point x="1789.6" y="-113" type="line"/>
-      <point x="1557.28" y="-113" type="line"/>
-      <point x="1523.34" y="-113" type="line"/>
-      <point x="1505.45" y="-84.1582" type="line"/>
-      <point x="1024" y="691.854" type="line"/>
-      <point x="542.555" y="-84.1582" type="line"/>
-      <point x="524.661" y="-113" type="line"/>
-      <point x="490.72" y="-113" type="line"/>
-      <point x="258.4" y="-113" type="line"/>
+      <point x="1789.6" y="-31.6667"/>
+      <point x="1789.6" y="-72.3333"/>
+      <point x="1789.6" y="-113" type="curve"/>
+      <point x="1700.85" y="-113"/>
+      <point x="1612.09" y="-113"/>
+      <point x="1523.34" y="-113" type="curve"/>
+      <point x="1356.9" y="155.29"/>
+      <point x="1190.45" y="423.568"/>
+      <point x="1024" y="691.854" type="curve"/>
+      <point x="857.554" y="423.569"/>
+      <point x="691.108" y="155.284"/>
+      <point x="524.661" y="-113" type="curve"/>
+      <point x="435.907" y="-113"/>
+      <point x="347.154" y="-113"/>
     </contour>
     <contour>
       <point x="1025" y="1425" type="move" name="Anchor"/>
