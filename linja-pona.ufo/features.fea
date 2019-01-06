@@ -495,12 +495,12 @@ lookup caltContextualAlternateslookup {
 	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
 	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]'  by [\a.mark \akesi.mark \ala.sup \alasa.mark 
-	\ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark \en.mark \esun.mark 
-	\ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
+	\ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark.small \en.mark 
+	\esun.mark \ijo.mark \ike.mark.small \ilo.mark \insa.mark \jaki.mark.small 
 	\jan.mark.small \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark 
 	\kasi.sup \ken.mark \kepeken.mark \kili.mark \kiwen.mark \ko.mark \kon.mark 
 	\kule.mark.small \kulupu.mark \kute.mark \la.mark \lape.mark.small 
-	\laso.mark.small \lawa.sup \len.sup \lete.mark.small \li.mark \lili.sup 
+	\laso.mark.small \lawa.sup \len.sup \lete.mark.small \li.mark.small \lili.sup 
 	\linja.mark \lipu.mark \loje.mark.small \lon.mark \luka.sup \lukin.mark 
 	\lupa.sup \ma.mark.small \mama.mark.small \mani.mark \meli.mark.small \mi.mark 
 	\mije.mark.small \moku.sup \moli.sup \monsi.sup \mu.mark \mun.mark.small 
@@ -540,13 +540,13 @@ lookup caltContextualAlternateslookup {
 	\tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \wan.mark 
 	\waso.mark \wawa.mark \weka.mark \wile.mark \kin.mark \kipisi.mark 
 	\leko.mark \monsuta.mark \namako.mark \oko.mark \pake.mark ]'  by [\a.mark \akesi.mark \ala.mark.small 
-	\alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark 
+	\alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \e.mark.small 
 	\en.mark \esun.mark \ijo.mark \ike.mark.small \ilo.mark \insa.mark 
 	\jaki.mark.small \jan.mark.small \jelo.mark.small \jo.mark \kala.mark 
 	\kalama.mark \kama.mark \kasi.mark.small \ken.mark \kepeken.mark \kili.mark 
 	\kiwen.mark \ko.mark \kon.mark \kule.mark.small \kulupu.mark \kute.mark 
 	\la.mark \lape.mark.small \laso.mark.small \lawa.mark.small \len.mark 
-	\lete.mark.small \li.mark \lili.mark.small \linja.mark \lipu.mark 
+	\lete.mark.small \li.mark.small \lili.mark.small \linja.mark \lipu.mark 
 	\loje.mark.small \lon.mark \luka.mark.small \lukin.mark \lupa.mark 
 	\ma.mark.small \mama.mark.small \mani.mark \meli.mark.small \mi.mark 
 	\mije.mark.small \moku.mark \moli.mark \monsi.mark \mu.mark \mun.mark.small 
@@ -620,6 +620,8 @@ lookup markMarkPositioninglookup0 {
   markClass [\suli.mark ] <anchor 1025 765> @Anchor;
   markClass [\suno.mark.small ] <anchor 1025 875> @Anchor;
   markClass [\suwi.mark.small ] <anchor 1025 640> @Anchor;
+  markClass [\e.mark.small ] <anchor 965 820> @Anchor;
+  markClass [\li.mark.small ] <anchor 1025 825> @Anchor;
   pos base [\anpa \wile ] <anchor 1025 1100> mark @Anchor;
   pos base [\awen.base \kama.base \tawa.base ] <anchor 1025 1425> mark @Anchor;
   pos base [\ijo \ko \lipu \poki ] <anchor 1025 800> mark @Anchor;
@@ -686,6 +688,7 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup0;
 } mark;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \B \C \D \E \Euro \F \G \H \I \J \K \L \M \N \O \OE \P \Q \R \S \Scaron \T \U \V 
 	\W \X \Y \Ydieresis \Z \Zcaron \a \acute \ampersand \asciicircum \asciitilde 
@@ -749,7 +752,7 @@ feature mark {
 	\tenpo.mark.small \toki.mark \toki.mark.small \toki.sup \tomo.mark \tomo.sup 
 	\tu.mark \unpa.mark \unpa.mark.small \uta.mark \utala.mark \utala.mark.small 
 	\walo.mark \walo.mark.small \wan.mark \waso.mark \wawa.mark \weka.mark 
-	\wile.mark ];
+	\wile.mark \e.mark.small \li.mark.small ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

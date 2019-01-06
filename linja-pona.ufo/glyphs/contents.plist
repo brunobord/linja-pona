@@ -174,6 +174,8 @@
   <string>e.glif</string>
   <key>e.mark</key>
   <string>e.mark.glif</string>
+  <key>e.mark.small</key>
+  <string>e.mark.small.glif</string>
   <key>ee</key>
   <string>ee.glif</string>
   <key>eight</key>
@@ -400,6 +402,8 @@
   <string>li.glif</string>
   <key>li.mark</key>
   <string>li.mark.glif</string>
+  <key>li.mark.small</key>
+  <string>li.mark.small.glif</string>
   <key>lili</key>
   <string>lili.glif</string>
   <key>lili.mark</key>
