@@ -549,7 +549,6 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup0;
 } mark;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \B \C \D \E \Euro \F \G \H \I \J \K \L \M \N \O \OE \P \Q \R \S \Scaron \T \U \V 
 	\W \X \Y \Ydieresis \Z \Zcaron \a \acute \ampersand \asciicircum \asciitilde 
