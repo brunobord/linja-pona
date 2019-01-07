@@ -66,6 +66,8 @@
   <string>Z_caron.glif</string>
   <key>a</key>
   <string>a.glif</string>
+  <key>a.exclam</key>
+  <string>a.exclam.glif</string>
   <key>a.mark</key>
   <string>a.mark.glif</string>
   <key>aa</key>
@@ -316,6 +318,8 @@
   <string>kili.mark.glif</string>
   <key>kin</key>
   <string>kin.glif</string>
+  <key>kin.exclam</key>
+  <string>kin.exclam.glif</string>
   <key>kin.mark</key>
   <string>kin.mark.glif</string>
   <key>kipisi</key>
@@ -598,6 +602,8 @@
   <string>numbersign.glif</string>
   <key>o</key>
   <string>o.glif</string>
+  <key>o.exclam</key>
+  <string>o.exclam.glif</string>
   <key>o.mark</key>
   <string>o.mark.glif</string>
   <key>oe</key>
@@ -790,6 +796,8 @@
   <string>seme.glif</string>
   <key>seme.mark</key>
   <string>seme.mark.glif</string>
+  <key>seme.question</key>
+  <string>seme.question.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
   <key>seven</key>
