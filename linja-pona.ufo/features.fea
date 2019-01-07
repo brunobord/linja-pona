@@ -1,12 +1,11 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-languagesystem thai dflt;
 
 
 # GSUB 
 
 
-lookup ligaStandardLigaturesinLatinlookup0 {
+lookup ligaStandardLigatures {
   lookupflag 0;
     sub \plus \a \exclam  by \a.mark;
     sub \plus \a \a  by \a.mark;
@@ -16,7 +15,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \hyphen \a  by \a.mark;
     sub \a \a  by \aa;
     sub \a \exclam  by \aa;
-    sub \a \space  by \aa;
     sub \a \k \e \s \i  by \akesi;
     sub \plus \a \k \e \s \i  by \akesi.mark;
     sub \hyphen \a \k \e \s \i  by \akesi.mark;
@@ -44,15 +42,12 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \a \w \e \n  by \awen;
     sub \plus \a \w \e \n  by \awen.mark;
     sub \hyphen \a \w \e \n  by \awen.mark;
-    sub \colon \space  by \colon.space;
-    sub \comma \space  by \comma.space;
     sub \plus \e \exclam  by \e.mark;
     sub \plus \e \e  by \e.mark;
     sub \plus \e  by \e.mark;
     sub \hyphen \e \exclam  by \e.mark;
     sub \hyphen \e \e  by \e.mark;
     sub \hyphen \e  by \e.mark;
-    sub \e \space  by \ee;
     sub \e \exclam  by \ee;
     sub \e \e  by \ee;
     sub \e \n  by \en;
@@ -61,7 +56,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \e \s \u \n  by \esun;
     sub \plus \e \s \u \n  by \esun.mark;
     sub \hyphen \e \s \u \n  by \esun.mark;
-    sub \exclam \space  by \exclam.space;
     sub \i \j \o  by \ijo;
     sub \plus \i \j \o  by \ijo.mark;
     sub \hyphen \i \j \o  by \ijo.mark;
@@ -261,7 +255,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \o \n \a  by \ona;
     sub \plus \o \n \a  by \ona.mark;
     sub \hyphen \o \n \a  by \ona.mark;
-    sub \o \space  by \oo;
     sub \o \exclam  by \oo;
     sub \o \o  by \oo;
     sub \o \p \e \n  by \open;
@@ -285,7 +278,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \p \a \n \a  by \pana;
     sub \plus \p \a \n \a  by \pana.mark;
     sub \hyphen \p \a \n \a  by \pana.mark;
-    sub \period \space  by \period.space;
     sub \p \i  by \pi;
     sub \p \i \plus  by \pi.base;
     sub \p \i \hyphen  by \pi.base;
@@ -315,7 +307,6 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \p \u  by \pu;
     sub \plus \p \u  by \pu.mark;
     sub \hyphen \p \u  by \pu.mark;
-    sub \question \space  by \question.space;
     sub \s \a \m \a  by \sama;
     sub \plus \s \a \m \a  by \sama.mark;
     sub \hyphen \s \a \m \a  by \sama.mark;
@@ -427,9 +418,21 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \w \i \l \e  by \wile;
     sub \plus \w \i \l \e  by \wile.mark;
     sub \hyphen \w \i \l \e  by \wile.mark;
-} ligaStandardLigaturesinLatinlookup0;
+} ligaStandardLigatures;
 
-lookup caltContextualAlternateslookup {
+lookup cligContextualLigatures {
+  lookupflag 0;
+    sub \a by \aa ;
+    sub \colon by \colon.space ;
+    sub \comma by \comma.space ;
+    sub \e by \ee ;
+    sub \exclam by \exclam.space ;
+    sub \o by \oo ;
+    sub \period by \period.space ;
+    sub \question by \question.space ;
+} cligContextualLigatures;
+
+lookup caltContextualAlternates {
   lookupflag 0;
     sub [\aa \akesi \ala \alasa \ale \anpa \ante \anu \awen \ee \en \esun \ijo \ike \ilo \insa 
 	\jaki \jan \jelo \jo \kala \kalama \kama \kasi \ken \kepeken \kili \kiwen 
@@ -563,34 +566,45 @@ lookup caltContextualAlternateslookup {
 	\uta.mark \utala.mark.small \walo.mark.small \wan.mark \waso.mark \wawa.mark 
 	\weka.mark \wile.mark \kin.mark \kipisi.mark.small \leko.mark 
 	\monsuta.mark.small \namako.mark \oko.mark \pake.mark ];
-} caltContextualAlternateslookup;
+} caltContextualAlternates;
 
 feature liga {
 
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatures;
+
  script latn;
      language dflt ;
-      lookup ligaStandardLigaturesinLatinlookup0;
+      lookup ligaStandardLigatures;
 } liga;
+
+feature clig {
+
+ script DFLT;
+     language dflt ;
+      lookup cligContextualLigatures;
+
+ script latn;
+     language dflt ;
+      lookup cligContextualLigatures;
+} clig;
 
 feature calt {
 
  script DFLT;
      language dflt ;
-      lookup caltContextualAlternateslookup;
+      lookup caltContextualAlternates;
 
  script latn;
      language dflt ;
-      lookup caltContextualAlternateslookup;
-
- script thai;
-     language dflt ;
-      lookup caltContextualAlternateslookup;
+      lookup caltContextualAlternates;
 } calt;
 
 # GPOS 
 
 
-lookup markMarkPositioninglookup0 {
+lookup markMarkPositioning {
   lookupflag 0;
   markClass [\a.mark \akesi.mark \ala.mark \alasa.mark \ale.mark \anpa.mark \ante.mark \anu.mark \awen.mark \en.mark \esun.mark \ijo.mark \ike.mark \ilo.mark \insa.mark \jaki.mark \jaki.mark.small \jan.mark \jelo.mark \jelo.mark.small \jo.mark \kala.mark \kalama.mark \kama.mark \kasi.mark \kasi.mark.small \ken.mark \kepeken.mark \kili.mark \kin.mark \kipisi.mark \kiwen.mark \ko.mark \kon.mark \kule.mark \kule.mark.small \kulupu.mark \kute.mark \lape.mark \laso.mark \laso.mark.small \lawa.mark \leko.mark \len.mark \lete.mark \lili.mark \linja.mark \lipu.mark \loje.mark \loje.mark.small \lon.mark \luka.mark \lukin.mark \lupa.mark \ma.mark \mama.mark \mani.mark \meli.mark \mi.mark \mije.mark \moku.mark \moli.mark \monsi.mark \monsuta.mark \mu.mark \mun.mark \musi.mark \mute.mark \namako.mark \nanpa.mark \nasa.mark \nasa.mark.small \nasin.mark \nena.mark \ni.mark \nimi.mark \noka.mark \oko.mark \olin.mark \ona.mark \open.mark \pakala.mark \pake.mark \pali.mark \palisa.mark \pan.mark \pana.mark \pi.mark \pilin.mark \pimeja.mark \pimeja.mark.small \pini.mark \pipi.mark \poka.mark \poki.mark \pu.mark \sama.mark \seli.mark \seli.mark.small \selo.mark \seme.mark \sewi.mark \sijelo.mark \sike.mark \sin.mark \sina.mark \sinpin.mark \sitelen.mark \sona.mark \soweli.mark \suno.mark \supa.mark \suwi.mark \tan.mark \taso.mark \tawa.mark \telo.mark \tenpo.mark \toki.mark \tomo.mark \tu.mark \unpa.mark \uta.mark \utala.mark \walo.mark \walo.mark.small \wan.mark \waso.mark \wawa.mark \weka.mark \wile.mark ] <anchor 1025 800> @Anchor;
   markClass [\ala.mark.small \ike.mark.small \nanpa.mark.small \sijelo.mark.small \tenpo.mark.small \utala.mark.small ] <anchor 1025 590> @Anchor;
@@ -672,21 +686,17 @@ lookup markMarkPositioninglookup0 {
   pos base [\toki ] <anchor 1025 675> mark @Anchor;
   pos base [\tomo ] <anchor 1025 666> mark @Anchor;
   pos base [\wawa ] <anchor 1025 725> mark @Anchor;
-} markMarkPositioninglookup0;
+} markMarkPositioning;
 
 feature mark {
 
  script DFLT;
      language dflt ;
-      lookup markMarkPositioninglookup0;
+      lookup markMarkPositioning;
 
  script latn;
      language dflt ;
-      lookup markMarkPositioninglookup0;
-
- script thai;
-     language dflt ;
-      lookup markMarkPositioninglookup0;
+      lookup markMarkPositioning;
 } mark;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
