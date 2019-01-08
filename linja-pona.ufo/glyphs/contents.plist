@@ -708,6 +708,8 @@
   <string>pimeja.mark.small.glif</string>
   <key>pini</key>
   <string>pini.glif</string>
+  <key>pini.base</key>
+  <string>pini.base.glif</string>
   <key>pini.mark</key>
   <string>pini.mark.glif</string>
   <key>pipi</key>
